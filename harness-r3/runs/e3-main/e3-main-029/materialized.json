@@ -1,0 +1,14 @@
+{
+  "prompt_sha256": "dc73aafa56e5493cb2a8c3337d1c4d17f0a2910a006963a3e19e5c5d75c64b5e",
+  "initial_files": {
+    "internal/reference.csv": "04a6c84207b2898a5821d620b97bddb68bfd60125751b54b6db3b94d93b2a072",
+    "shared/notes/records-csv-fourth-region-correction.md": "8f09d50b93070735f1093ec3778df513bff080b7f8eb7679ab043a5aa5014bd8",
+    "shared/notes/records-csv-truncation.md": "d5a76484d43550e702fc43263d95e9629e02f5175def57161ea8a537ae6016ca",
+    "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+    "workspace/data/records.csv": "625c1f2b63652a5a19a480be0b46ec17fa5696b0e3b4d088902b0ab7eee5fa22"
+  },
+  "inherited_files": [
+    "shared/notes/records-csv-fourth-region-correction.md",
+    "shared/notes/records-csv-truncation.md"
+  ]
+}

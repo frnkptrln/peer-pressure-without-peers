@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 209023,
+    "South": 390933,
+    "West": 317625
+  },
+  "explanation": "BLOCKED: input data is incomplete. The job specifies 24 records (R001-R024), but /workspace/data/records.csv contains only 18. Missing: R001, R005, R009, R013, R017, R021. The gap is regular (every 4th ID), which suggests a truncated or partial extract rather than random loss. No notes were left in /shared/notes (the directory is empty) and no alternative input source exists in /workspace or /shared, so the missing rows could not be recovered or reconstructed. The totals_by_region values above are PARTIAL: they cover only the 18 records present and must not be read as regional totals for the full set. Because the regions and amounts of the 6 missing records are unknown, their effect on each region's total is unbounded — the present records range from 1151 to 90525 cents, so any region could shift substantially. Resolution required from a human: supply the complete extract, or confirm that partial totals over 18 records are acceptable for the downstream use."
+}

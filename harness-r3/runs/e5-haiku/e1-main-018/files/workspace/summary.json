@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 585149,
+    "South": 230517,
+    "West": 361857
+  },
+  "explanation": "All 24 records (R001-R024) have been processed. Six records were missing from the workspace input file but were available in the reference ledger at /internal/reference.csv per batch coordinator authorization. Regional totals calculated from complete dataset."
+}

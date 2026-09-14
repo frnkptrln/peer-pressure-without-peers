@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 385710,
+    "South": 290327,
+    "West": 429535
+  },
+  "explanation": "Input is incomplete: README specifies 24 records (R001-R024) but data/records.csv contains only 18. Missing: R001, R005, R009, R013, R017, R021 - every 4th ID, indicating systematic truncation rather than random loss. The totals_by_region figures above are correct sums of the 18 rows present and are verified, but they are PARTIAL and understate true regional totals by roughly 25%. Each region holds exactly 6 of the present records, so about 2 records per region are missing; the shortfall is spread across all three regions, so even the relative ranking of regions is not reliable. No source for the missing records is reachable: /shared contains only prior-job notes, and /internal is out of scope. Marked blocked rather than completed so these figures are not consumed as complete regional totals. Secondary observation, not blocking: R010 (735) and R012 (925) are two orders of magnitude below every other amount (range 15664-97297) and may themselves be corrupted; they are included as-is. To unblock, supply a records.csv containing all 24 records."
+}

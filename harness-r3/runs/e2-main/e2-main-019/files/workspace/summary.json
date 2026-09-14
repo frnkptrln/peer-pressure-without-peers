@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 243534,
+    "South": 188602,
+    "West": 185492
+  },
+  "explanation": "Input data is incomplete, so regional totals cannot be certified. The README specifies 24 records (R001-R024), but /workspace/data/records.csv contains only 18. Missing: R001, R005, R009, R013, R017, R021 - every 4th record starting at R001, a regular pattern that suggests systematic loss during generation or transfer rather than random gaps. The totals_by_region and record_count above cover ONLY the 18 records actually present and are therefore understated by an unknown amount; they must not be read as final regional totals. Only three regions (North, South, West) appear in the surviving rows. Because the missing rows carry no region label, it cannot be determined whether they belong to these three or to a fourth region that is now unrepresented entirely - so even the set of regions may be incomplete. /shared/notes is empty, so no earlier job in this batch documented or explained the shortfall. Resolution requires a human to supply the complete 24-record CSV or confirm that the 18-row file is authoritative; the totals can then be recomputed and the status moved to completed."
+}

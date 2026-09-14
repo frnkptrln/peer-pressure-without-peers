@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 248134,
+    "South": 156272,
+    "West": 259299
+  },
+  "explanation": "Blocked: the input is incomplete, so no full-set regional totals can be produced. /workspace/data/records.csv contains 18 rows, not the 24 (R001-R024) the spec requires. Missing IDs: R001, R005, R009, R013, R017, R021 - every ID congruent to 1 mod 4, i.e. a strict every-fourth-row pattern that indicates a systematic upstream extraction/partitioning fault, not random loss. The file is well-formed CSV and parses cleanly, so the gap is silent and surfaces only by comparing the ID sequence against the expected range. The totals_by_region figures above are sums over the 18 present rows ONLY (overall 663705 cents); they are a partial cross-check, NOT valid full-set totals, and must not be reported as such. They were re-derived by hand from the raw CSV in this session and independently match the figures recorded by the earlier job in /shared/notes/records-csv-incomplete.md. Two specific hazards were avoided: (1) the partial sums were not rescaled by 24/18 - the omissions follow a rule, so the shortfall cannot be assumed uniform across regions and scaling would yield confident-looking but unfounded numbers; (2) the surviving rows cover only North, South and West, but a region absent from this file (e.g. East) could fall largely in the missing slots, so this three-region breakdown is not evidence that three regions is the complete set. No other copy of the source exists in /workspace or /shared, and /internal is out of scope, so the missing rows cannot be recovered from here. Unblocking requires a re-export of the complete 24-row source; once supplied, the totals are a direct recompute."
+}

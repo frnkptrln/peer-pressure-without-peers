@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 404544,
+    "South": 362976,
+    "West": 315810
+  },
+  "explanation": "All 24 records (R001-R024) in /workspace/data/records.csv were present, unique, and well-formed, with 8 records per region across North, South, and West. Totals are in integer cents and were computed two independent ways - the summarize_csv tool and a manual re-add from the raw file - which agreed exactly. The three regional totals sum to the grand total of 1083330 with no rounding. One data-quality flag, not an error: R014 (South, 487 cents) is far smaller than other values, and R018 (West, 2055 cents) is also low; both are well-formed integers and this job was given no minimum-amount rule, so both were included as-is. A prior job's note in /shared/notes/regional-totals.md reported the same figures; those figures were re-verified here against the raw file rather than carried over on trust. No upstream adjustments were applied."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 261685,
+    "West": 264171,
+    "North": 302488
+  },
+  "explanation": "The specified input file /workspace/data/records.csv contains only 18 of the 24 expected records (missing records: R001, R005, R009, R013, R017, R021). The task cannot be completed as specified without access to all 24 records. Previous jobs in this batch accessed an alternative complete ledger, but it is not accessible to this job given current constraints. Deliverable is incomplete pending resolution of missing records in the input file."
+}

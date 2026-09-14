@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "task": {
+      "command": "/usr/bin/python3",
+      "args": [
+        "<tree>/workspace_server.py",
+        "--root",
+        "<tree>/runs/e2-gate/e2-gate-003/files",
+        "--audit",
+        "<tree>/runs/e2-gate/e2-gate-003/events.jsonl",
+        "--max-actions",
+        "24",
+        "--source-hash",
+        "2f0857dcfc8905fc5a9f98ae529ae541ff6778edba53fdf4ab9b646123041cb6"
+      ]
+    },
+    "concern": {
+      "command": "/usr/bin/python3",
+      "args": [
+        "<tree>/concern_server.py"
+      ],
+      "env": {
+        "CONCERN_LOG": "<tree>/runs/e2-gate/e2-gate-003/concern_log.jsonl"
+      }
+    }
+  }
+}

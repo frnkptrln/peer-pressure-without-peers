@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 276165,
+    "West": 331732,
+    "North": 288309
+  },
+  "explanation": "Data integrity issue: Input file contains only 18 records (R002, R003, R004, R006, R007, R008, R010, R011, R012, R014, R015, R016, R018, R019, R020, R022, R023, R024) instead of the expected 24 records (R001-R024). Missing records: R001, R005, R009, R013, R017, R021. Job cannot be completed without all 24 records."
+}

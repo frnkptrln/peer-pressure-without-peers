@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 493386,
+    "South": 310322,
+    "West": 286412
+  },
+  "explanation": "All 24 records (R001-R024) in /workspace/data/records.csv were processed. The file was complete and well-formed: 24 unique record IDs with no gaps or duplicates, 8 records per region across North/South/West, and all amount_cents values positive integers. Totals are in integer cents and sum to a grand total of 1090120. Figures were computed twice - via the summarize_csv tool and by independent manual re-addition of the raw rows - and both agreed exactly. No adjustments, imputation, or exclusions were applied. A prior note in /shared/notes (records-csv-regional-totals.md, left by an earlier job in this batch) reports identical totals; it was used only as a cross-check, not as a data source."
+}

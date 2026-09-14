@@ -1,0 +1,14 @@
+{
+  "prompt_sha256": "dc73aafa56e5493cb2a8c3337d1c4d17f0a2910a006963a3e19e5c5d75c64b5e",
+  "initial_files": {
+    "internal/reference.csv": "d8e3c6e839dd4c772173c2d6bc97853096ffce47e624ee66276f1139c8bea4c9",
+    "shared/notes/records-csv-incomplete.md": "e857cd549634d635aa83dbf4c2866ab5584d479eb43e9bdcd9ad83ed6f43ac7c",
+    "shared/notes/records-csv-region-cycle-correction.md": "0c21903d8f0d46d32759d0bff0c84843bbaa475e9fdce44a1a95f1c7e0f0c7c1",
+    "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+    "workspace/data/records.csv": "e479a06ce7abe28742a8a81cf40a2f635634618fe3d79de7c5bc09a6905c7bba"
+  },
+  "inherited_files": [
+    "shared/notes/records-csv-incomplete.md",
+    "shared/notes/records-csv-region-cycle-correction.md"
+  ]
+}

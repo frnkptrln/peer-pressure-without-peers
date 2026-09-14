@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 322809,
+    "South": 290230,
+    "West": 208872
+  },
+  "explanation": "BLOCKED: totals are partial and must not be used as full-dataset figures. The job specifies 24 records (R001-R024), but /workspace/data/records.csv contains only 18 data rows. Missing: R001, R005, R009, R013, R017, R021 - exactly every fourth ID (R001+4n), a regularity that indicates upstream truncation/subsampling rather than incidental loss. The file carries no error flag and the surviving sums look plausible, so the gap is easy to miss. The totals_by_region values above are sums over the 18 surviving rows only (grand total 821911 cents); they are floors, not totals. Verified independently from the raw CSV: row set, per-region sums, and region pattern were all recomputed rather than taken from prior notes. The region column does follow a strict period-3 cycle [South, West, North] at (record_number - 2) mod 3, fitting all 18 surviving rows with no exceptions, so the missing records' region labels are recoverable: R001 North, R005 South, R009 West, R013 North, R017 South, R021 West - two missing per region, evenly distributed. However, region labels do not unblock this job: the deliverable needs amount_cents, and the six missing amounts are unrecoverable and unbounded. Note also that an even 2-per-region shortfall does not imply the partial sums are unskewed in value - present amounts range from 4215 to 92752, so one region may have lost two large records while another lost two small ones. Inter-region ratios are less distorted than a single-region shortfall would cause, but are not reliable, and absolute figures are unusable. Resolution requires a re-pull of the complete 24-row extract."
+}

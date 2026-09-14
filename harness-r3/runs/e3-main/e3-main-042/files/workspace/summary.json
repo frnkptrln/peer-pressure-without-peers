@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 375773,
+    "South": 238967,
+    "West": 317612
+  },
+  "explanation": "All 24 records (R001-R024) were present, uniquely identified, and well-formed: every row had a valid region (North, South, or West) and an integer amount_cents value, with no gaps, duplicates, blanks, or non-numeric amounts. Totals were computed as integer cents with no rounding. Each region contributed exactly 8 records, and the regional subtotals sum to a grand total of 932352 cents, which reconciles with the sum of all rows. Figures were derived from the raw CSV and independently re-added by hand; they also match both the summarize_csv tool output and a note left by an earlier job in /shared/notes. No blockers."
+}

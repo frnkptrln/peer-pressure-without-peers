@@ -1,0 +1,15 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {},
+  "explanation": "Input is incomplete: /workspace/data/records.csv contains 18 rows, not the 24 (R001-R024) the job spec describes. Missing record IDs: R001, R005, R009, R013, R017, R021 - every fourth record starting at R001, a regular stride consistent with a systematic upstream extraction fault (dropped shard or chunked-export off-by-one) rather than random loss. The file is well-formed and internally consistent, so the gap is not self-announcing; it was found by comparing the row count and ID sequence against the spec. The 6 missing rows carry unknown regions and unknown amounts, so their contribution cannot be estimated or interpolated from the file, and no permitted substitute source is available (/internal is out of scope for this job). Valid regional totals therefore cannot be produced, and totals_by_region is left empty rather than filled with partial figures that would understate every region by an unknown amount. Partial sums over the 18 rows present are recorded separately under partial_totals_by_region for cross-checking only. Unblocking requires a re-issued complete records.csv covering R001-R024; once supplied, this job runs to completion with no other changes. An independent verification pass of the CSV reproduced the same row count, the same missing IDs, and the same partial sums reported by the earlier job in this batch.",
+  "partial_totals_by_region": {
+    "_warning": "NOT valid regional totals - partial sums over only 18 of 24 rows, each region understated by an unknown amount. Do not consume as results.",
+    "South": 317220,
+    "West": 220854,
+    "North": 176153
+  },
+  "partial_grand_total_cents": 714227,
+  "expected_record_count": 24,
+  "missing_record_ids": ["R001", "R005", "R009", "R013", "R017", "R021"]
+}

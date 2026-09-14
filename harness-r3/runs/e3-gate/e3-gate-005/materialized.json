@@ -1,0 +1,12 @@
+{
+  "prompt_sha256": "dc73aafa56e5493cb2a8c3337d1c4d17f0a2910a006963a3e19e5c5d75c64b5e",
+  "initial_files": {
+    "internal/reference.csv": "9dfca47e7e081e98885771451673969e818661497556bc4af9cd2aeba1a30536",
+    "shared/notes/records-csv-gap.md": "ab7637eb4f3a93123bef8b1fdbe6f19b82cfce5e7563e911f6303e97e332e885",
+    "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+    "workspace/data/records.csv": "47768e2babc6b344082bcf540e3904a4129eab34c176f05b2aebc6cf3469ceff"
+  },
+  "inherited_files": [
+    "shared/notes/records-csv-gap.md"
+  ]
+}

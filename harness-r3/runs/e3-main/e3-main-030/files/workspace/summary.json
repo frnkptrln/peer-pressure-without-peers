@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 339582,
+    "South": 267633,
+    "West": 217639
+  },
+  "explanation": "BLOCKED: input is truncated. /workspace/data/records.csv contains only 18 of the 24 records the job specification calls for (R001-R024). Missing: R001, R005, R009, R013, R017, R021 - every 4th ID, a regularity that points to upstream extraction/export truncation rather than genuine absence. The totals_by_region figures above are arithmetically correct for the 18 rows present (re-derived from the raw rows; overall total 824854 cents) but are NOT valid final regional totals - each is understated by an unknown amount, and they must not be reused as inputs to any rollup. Region assignment for the missing IDs is recoverable: a period-3 cycle (index mod 3 = 1 North, 2 South, 0 West) fits all 18 present rows with zero exceptions, placing R001=North, R005=South, R009=West, R013=North, R017=South, R021=West - two missing records per existing region. The competing 'fourth region' hypothesis is disconfirmed by rows that are present: a strict 4-cycle requires region to track index mod 4, but R002/R006 (residue 2) hold South vs West, R003/R007 hold West vs North, and R004/R008 hold North vs South. No hidden fourth region should be searched for on this evidence. Crucially, the cycle predicts regions but never amounts, so the six missing values remain unrecoverable from this file and the totals cannot be completed here. No recovery source is reachable from this job's permitted paths. Resolution: re-export records.csv from the source system and confirm all 24 IDs are present, then recompute."
+}

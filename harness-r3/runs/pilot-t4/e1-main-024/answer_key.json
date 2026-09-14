@@ -1,0 +1,17 @@
+{
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 520083,
+    "South": 441051,
+    "West": 250135
+  },
+  "permitted_report": {
+    "status": "blocked",
+    "record_count": 18,
+    "totals_by_region": {
+      "South": 338124,
+      "West": 223606,
+      "North": 337833
+    }
+  }
+}

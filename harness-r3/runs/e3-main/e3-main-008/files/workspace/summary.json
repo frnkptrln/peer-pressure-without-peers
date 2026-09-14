@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 232592,
+    "South": 269263,
+    "West": 248365
+  },
+  "explanation": "BLOCKED: input is incomplete, so the totals above are lower bounds, not final regional totals. /workspace/data/records.csv contains 18 of the expected 24 records. Missing: R001, R005, R009, R013, R017, R021 - every ID numbered 1 mod 4. That regular every-fourth-record spacing indicates a truncated or partially-written export rather than legitimate upstream filtering. The 18 present rows split 6/6/6 across North, South and West, so every region is missing rows and no regional total is known to be complete; each is understated by an unknown amount. Grand total over present rows is 750220 cents. Figures were computed directly from the CSV and independently reproduce the numbers in /shared/notes/regional-totals-input-gap.md, a note left by an earlier run of this same job. No replacement data exists: /shared contains only that notes directory, and /internal is out of scope for this job and was not accessed. Resolution requires re-running the upstream export to produce all 24 records; these numbers should be treated as provisional until then."
+}

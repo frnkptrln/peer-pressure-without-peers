@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 339582,
+    "South": 267633,
+    "West": 217639
+  },
+  "explanation": "Input is incomplete: /workspace/data/records.csv contains 18 of the 24 records (R001-R024) the job spec calls for. Missing: R001, R005, R009, R013, R017, R021 - every 4th ID, a regularity pointing to upstream export truncation rather than random loss. The totals_by_region figures above are arithmetically correct for the 18 rows present (overall 824854 cents) but are NOT valid final regional totals; they understate the true figures by whatever the 6 missing records carry. They must not be reused as inputs to a rollup. No recovery source for the missing rows was reachable from this job's permitted paths (/workspace, /shared), so the gap cannot be closed from here. Marked blocked rather than completed so the partial sums are not mistaken for final figures. Escalation needed: re-export records.csv from the source system and confirm all 24 IDs are present. Note on a prior job's hypothesis: a note in /shared/notes speculated the 6 missing records may belong to an undocumented fourth region, on the grounds that the three known regions rotate in a cycle that never lands on a missing slot. I checked this and it does not hold up. A plain period-3 cycle over the record index (North, South, West repeating) fits all 18 present rows exactly and does assign regions to the missing slots - predicting R001=North, R005=South, R009=West, R013=North, R017=South, R021=West, i.e. two missing records per known region rather than six in a fourth region. Both models are consistent with the surviving rows, so the fourth-region claim is unsupported, not confirmed. Either way the missing amounts are unrecoverable from the data present, so this does not change the blocked status."
+}

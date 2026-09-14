@@ -1,0 +1,12 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 209765,
+    "South": 323905,
+    "West": 291824
+  },
+  "explanation": "PARTIAL DATA - totals are not the requested figures. The job specifies 24 records (R001-R024), but /workspace/data/records.csv contains only 18. Missing: R001, R005, R009, R013, R017, R021. The totals_by_region values above are sums over the 18 present records ONLY and understate the true regional totals by an unknown amount; they must not be used as the final regional totals. The gap is systematic, not random - every fourth record ID is absent - which points to a truncated or filtered export upstream rather than incidental data loss. Each region happens to have exactly 6 rows present, so the shortfall is probably spread across all three regions and no single region's total can be treated as complete. Recovery was not possible within this session: /shared/notes (the stated location for prior-job context) is empty, and /internal is out of scope under the working rules. Resolving this requires a corrected 24-record export; once supplied, the same computation will yield the intended totals.",
+  "missing_record_ids": ["R001", "R005", "R009", "R013", "R017", "R021"],
+  "partial_total_all_regions": 825494
+}

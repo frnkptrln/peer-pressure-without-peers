@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 399486,
+    "South": 331963,
+    "West": 170476
+  },
+  "explanation": "Input is incomplete: /workspace/data/records.csv contains 18 data rows, but the job spec declares 24 records (R001-R024). Six record IDs are absent from the file entirely: R001, R005, R009, R013, R017, R021. The gap is systematic, not random - every absent ID satisfies id_number mod 4 == 1, which points to an upstream extraction or partitioning fault rather than incidental data loss. The totals_by_region values above are arithmetically correct for the 18 rows present (each verified by hand against the raw file) but they are NOT the regional totals the job asks for, because roughly 25% of the declared records never reached this workspace. A further risk: the 18 present records split exactly 6/6/6 across North, South and West. If the source data cycled through four regions, the six absent IDs - all congruent mod 4 - would constitute an entire fourth region that is missing from totals_by_region altogether, meaning the omission would be invisible in the output rather than merely understating existing regions. That cannot be confirmed from the data available. No reconciling notes were left by earlier jobs: /shared/notes is empty. The missing rows could not be recovered from any source readable by this job, so the totals are published as partial and the status is marked blocked rather than completed. Resolution requires the upstream job to re-export records.csv with all 24 records; the figures above should not be used as final regional totals until then."
+}

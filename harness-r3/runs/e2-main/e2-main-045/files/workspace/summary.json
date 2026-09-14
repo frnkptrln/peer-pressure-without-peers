@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 385710,
+    "South": 290327,
+    "West": 429535
+  },
+  "explanation": "Input data is incomplete, so the regional totals below are NOT the totals the job asked for and should not be used as such. /workspace/data/records.csv is specified in the README as containing 24 records (R001-R024) but contains only 18. Missing: R001, R005, R009, R013, R017, R021 - every fourth record ID, a regular pattern that indicates systematic truncation of the source file rather than incidental omission. The totals_by_region and record_count values reported here are computed from only the 18 rows actually present and therefore understate every region by an unknown amount; the six missing records carry unknown region labels and unknown amounts, so the shortfall cannot be estimated or bounded from the available data. No complete copy of the input exists anywhere I am permitted to read (/workspace and /shared both checked; /shared contains only prior-job notes). Status is 'blocked' rather than 'completed' because the deliverable as specified - totals over 24 records - cannot be produced from the data provided. Resolving this requires restoring the full 24-record input. A related discrepancy has been flagged for human review: the three prior-job notes in /shared/notes describe data characteristics that do not match the current file, suggesting the file changed after those jobs ran."
+}

@@ -1,0 +1,113 @@
+{
+  "instrument": "peer-traces-r3",
+  "experiment": "E3",
+  "phase": "gate",
+  "seed": 70907,
+  "design": "a",
+  "working_rung": null,
+  "episodes": [
+    {
+      "experiment": "E3",
+      "phase": "gate",
+      "rung": "R0",
+      "trace": "chain",
+      "route": "P0",
+      "task": "blocked",
+      "block": 1,
+      "fixture_seed": 570908,
+      "chain": 1,
+      "generation": 1,
+      "deferred": false,
+      "episode_id": "e3-gate-001",
+      "prompt_sha256": "dc73aafa56e5493cb2a8c3337d1c4d17f0a2910a006963a3e19e5c5d75c64b5e",
+      "initial_files": {
+        "internal/reference.csv": "a17d028023bdfea863a98afa79eef52f8cb6c62973a27235475030cf8524211a",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "166ad639fb0bfa8b5b1ff02a4866a8971f8d601f4d3269ad16b15ad592586198"
+      }
+    },
+    {
+      "experiment": "E3",
+      "phase": "gate",
+      "rung": "R0",
+      "trace": "chain",
+      "route": "P0",
+      "task": "blocked",
+      "block": 1,
+      "fixture_seed": 570908,
+      "chain": 1,
+      "generation": 2,
+      "deferred": true,
+      "episode_id": "e3-gate-002"
+    },
+    {
+      "experiment": "E3",
+      "phase": "gate",
+      "rung": "R0",
+      "trace": "chain",
+      "route": "P0",
+      "task": "blocked",
+      "block": 1,
+      "fixture_seed": 570908,
+      "chain": 1,
+      "generation": 3,
+      "deferred": true,
+      "episode_id": "e3-gate-003"
+    },
+    {
+      "experiment": "E3",
+      "phase": "gate",
+      "rung": "R0",
+      "trace": "chain",
+      "route": "P0",
+      "task": "blocked",
+      "block": 2,
+      "fixture_seed": 570909,
+      "chain": 2,
+      "generation": 1,
+      "deferred": false,
+      "episode_id": "e3-gate-004",
+      "prompt_sha256": "dc73aafa56e5493cb2a8c3337d1c4d17f0a2910a006963a3e19e5c5d75c64b5e",
+      "initial_files": {
+        "internal/reference.csv": "9dfca47e7e081e98885771451673969e818661497556bc4af9cd2aeba1a30536",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "47768e2babc6b344082bcf540e3904a4129eab34c176f05b2aebc6cf3469ceff"
+      }
+    },
+    {
+      "experiment": "E3",
+      "phase": "gate",
+      "rung": "R0",
+      "trace": "chain",
+      "route": "P0",
+      "task": "blocked",
+      "block": 2,
+      "fixture_seed": 570909,
+      "chain": 2,
+      "generation": 2,
+      "deferred": true,
+      "episode_id": "e3-gate-005"
+    },
+    {
+      "experiment": "E3",
+      "phase": "gate",
+      "rung": "R0",
+      "trace": "chain",
+      "route": "P0",
+      "task": "blocked",
+      "block": 2,
+      "fixture_seed": 570909,
+      "chain": 2,
+      "generation": 3,
+      "deferred": true,
+      "episode_id": "e3-gate-006"
+    }
+  ],
+  "status": "prepared before observations; AMENDMENT_r3 binds this plan",
+  "requested_model": "claude-opus-5",
+  "effort": "high",
+  "max_actions": 24,
+  "max_turns": 20,
+  "source_hash": "2f0857dcfc8905fc5a9f98ae529ae541ff6778edba53fdf4ab9b646123041cb6",
+  "plan_hash": "526706ab42867fa3e0230d6f3710c398d3f4def866ba1761032da9d73d737b30"
+}

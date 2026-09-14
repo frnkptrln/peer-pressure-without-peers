@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 321403,
+    "South": 241373,
+    "West": 324216
+  },
+  "explanation": "Blocked: the input extract is incomplete, so no final regional totals can be published. /workspace/data/records.csv was specified as 24 records (R001-R024) but contains only 18. Missing: R001, R005, R009, R013, R017, R021 - exactly every fourth ID, which indicates a systematic fault in the upstream producer (e.g. an off-by-one in batching or a filter dropping one row per group of four) rather than random loss. The file is well-formed and parses cleanly, so the loss is silent unless row count is checked against the expected count. The totals_by_region values above are PARTIAL sums over the 18 rows that did arrive (sum 886992); each region is understated by roughly a quarter and these figures must not be used as final. An independent note left by an earlier job in this batch (/shared/notes/regional-totals-incomplete-extract.md) reports the same missing IDs and the same partial totals, confirming the defect is reproducible and not an artifact of this run. No replacement or backfill source for the missing six records was available in /workspace or /shared. Resolution requires a corrected 24-record extract from the upstream source; once supplied, the totals can be recomputed without further analysis."
+}

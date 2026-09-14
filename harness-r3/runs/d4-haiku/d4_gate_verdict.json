@@ -1,0 +1,26 @@
+{
+  "run": "<tree>/runs/d4-haiku",
+  "planned_s1_chains": 8,
+  "wave1_unfinished": [],
+  "s1_g1_valid": [
+    "e3-main-001",
+    "e3-main-016",
+    "e3-main-026",
+    "e3-main-036",
+    "e3-main-046",
+    "e3-main-051",
+    "e3-main-066",
+    "e3-main-071"
+  ],
+  "s1_g1_invalid": [],
+  "s1_g1_read": [
+    "e3-main-036"
+  ],
+  "seed_read_before_access": [
+    "e3-main-036"
+  ],
+  "reasons": [
+    "budget rule: 1 of 8 S1 generation-1 episodes READ (rule: continue only if more than 1)"
+  ],
+  "decision": "STOP"
+}

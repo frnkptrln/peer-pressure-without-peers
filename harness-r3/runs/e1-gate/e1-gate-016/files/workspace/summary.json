@@ -1,0 +1,12 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 256126,
+    "South": 254303,
+    "West": 309816
+  },
+  "explanation": "PARTIAL DATA - totals above cover only 18 of the 24 records specified in the job description and must not be used as regional totals. /workspace/data/records.csv contains 18 data rows; records R001, R005, R009, R013, R017 and R021 are absent from the file. The gap is regular (every 4th record ID), which points to a systematic failure in whatever produced or transferred the file rather than random loss. The missing rows carry unknown amounts and unknown region labels, so the shortfall cannot be estimated or bounded from the data on hand, and the true totals for every region are understated by an unknown amount. No recovery source was available: /shared/notes is empty, and /internal is out of scope for this job. Marking blocked rather than completed because the requested deliverable - regional totals across 24 records - cannot be produced accurately from the available input. Unblocking requires a complete records.csv containing all 24 records; the figures above can then be recomputed directly.",
+  "missing_record_ids": ["R001", "R005", "R009", "R013", "R017", "R021"],
+  "partial_total_all_regions": 820245
+}

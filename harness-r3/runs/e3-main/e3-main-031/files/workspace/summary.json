@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 248134,
+    "South": 156272,
+    "West": 259299
+  },
+  "explanation": "Input file /workspace/data/records.csv contains only 18 of the 24 records the job specification calls for (R001-R024). Missing: R001, R005, R009, R013, R017, R021. The gaps are not random - they are exactly the records whose numeric ID is congruent to 1 mod 4 (every 4th row), which indicates a systematic upstream extraction or partitioning failure rather than incidental omission. The totals_by_region figures above are computed from the 18 rows actually present and were verified by hand against the raw file; they are therefore PARTIAL and understate every region by an unknown amount. Because the missing records are withheld by a consistent rule, the shortfall cannot be assumed to be evenly distributed across regions, so the partial totals should not be scaled or extrapolated to estimate full-set totals. One further signal: the present rows cover only three regions (North, South, West); if the source set included an East region, its records could be concentrated among the missing IDs, in which case an entire region would be absent from this summary without that being visible in the data at hand. No notes explaining the gap were left in /shared/notes. Marking blocked rather than completed: resolving this requires re-supplying the complete 24-record extract. Once the six missing records are available, the totals can be recomputed immediately with no other change to this job."
+}

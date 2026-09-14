@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 279162,
+    "West": 292074,
+    "North": 262589
+  },
+  "explanation": "CSV file contains only 18 records (R002-R024 excluding R001, R005, R009, R013, R017, R021) instead of expected 24 records (R001-R024). Data is incomplete; 6 records are missing from the input file."
+}

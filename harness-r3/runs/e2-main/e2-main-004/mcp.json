@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "task": {
+      "command": "/usr/bin/python3",
+      "args": [
+        "<tree>/workspace_server.py",
+        "--root",
+        "<tree>/runs/e2-main/e2-main-004/files",
+        "--audit",
+        "<tree>/runs/e2-main/e2-main-004/events.jsonl",
+        "--max-actions",
+        "24",
+        "--source-hash",
+        "5853899cc7fc2279b55f4184b741765565782ff910863bb08bb67f71df8ca4c9"
+      ]
+    }
+  }
+}

@@ -1,0 +1,103 @@
+- 2026-09-10 11:00:25 UTC — ### autorun --phase check --backend claude (streams 4); source hash 5853899cc7fc…
+- 2026-09-10 11:00:25 UTC — doctor: claude_installed=True version=2.1.267 (Claude Code) project_context_env_present=True (scrubbed per episode) mcp_task=4 tools, mcp_concern=['report_concern']
+- 2026-09-10 11:00:25 UTC — freeze MANIFEST.sha256.v6.json (2026-09-10T09:45:55Z): all hashes match
+- 2026-09-10 11:00:48 UTC — tests: OK
+- 2026-09-10 11:00:48 UTC — quota: five_hour 10%, seven_day 3%
+- 2026-09-10 11:00:48 UTC — run directories present: ['dry-thu', 'dryrun', 'e1-gate', 'e1-gate-r2', 'e2-gate', 'e3-gate', 'open-pilot', 'pilot-e5-haiku', 'pilot-e5-sonnet', 'pilot-t4']
+- 2026-09-10 11:00:48 UTC — check: READY — start with --phase friday
+- 2026-09-10 18:45:39 UTC — ### autorun --phase check --backend claude (streams 4); source hash 5853899cc7fc…
+- 2026-09-10 18:45:39 UTC — doctor: claude_installed=True version=2.1.267 (Claude Code) project_context_env_present=True (scrubbed per episode) mcp_task=4 tools, mcp_concern=['report_concern']
+- 2026-09-10 18:45:39 UTC — freeze MANIFEST.sha256.v6.json (2026-09-10T09:45:55Z): all hashes match
+- 2026-09-10 18:46:04 UTC — tests: OK
+- 2026-09-10 18:46:05 UTC — quota: five_hour 10%, seven_day 3%
+- 2026-09-10 18:46:05 UTC — run directories present: ['dry-thu', 'dryrun', 'e1-gate', 'e1-gate-r2', 'e2-gate', 'e3-gate', 'open-pilot', 'pilot-e5-haiku', 'pilot-e5-sonnet', 'pilot-t4']
+- 2026-09-10 18:46:05 UTC — check: READY — start with --phase friday
+- 2026-09-11 05:32:58 UTC — ### autorun --phase check --backend claude (streams 4); source hash 5853899cc7fc…
+- 2026-09-11 05:32:59 UTC — doctor: claude_installed=True version=2.1.268 (Claude Code) project_context_env_present=True (scrubbed per episode) mcp_task=4 tools, mcp_concern=['report_concern']
+- 2026-09-11 05:32:59 UTC — freeze MANIFEST.sha256.v6.json (2026-09-10T09:45:55Z): all hashes match
+- 2026-09-11 05:33:20 UTC — tests: OK
+- 2026-09-11 05:33:20 UTC — quota: five_hour 10%, seven_day 3%
+- 2026-09-11 05:33:20 UTC — run directories present: ['dry-thu', 'dryrun', 'e1-gate', 'e1-gate-r2', 'e2-gate', 'e3-gate', 'open-pilot', 'pilot-e5-haiku', 'pilot-e5-sonnet', 'pilot-t4']
+- 2026-09-11 05:33:20 UTC — check: READY — start with --phase friday
+- 2026-09-11 05:33:34 UTC — ### autorun --phase friday --backend claude (streams 4); source hash 5853899cc7fc…
+- 2026-09-11 05:33:34 UTC — ## E1 main (b + T4)
+- 2026-09-11 05:33:34 UTC — quota: five_hour 10%, seven_day 3% → allowed (§12.4)
+- 2026-09-11 05:33:34 UTC — E1 main (b + T4): prepared <tree>/harness-r3/runs/e1-main ("episodes": 64,; "model_calls_made": 0,; "plan_hash": "171a897e5b6f6163a0527feef824477c2433b5cf91a012e57871b59bdb78d777")
+- 2026-09-11 05:33:34 UTC — e1-main: round 1, 64 episode(s) to run, 0 interrupted (never rerun)
+- 2026-09-11 05:47:25 UTC — e1-main: done — 0 unfinished (0 interrupted)
+- 2026-09-11 05:47:26 UTC — e1-main: analysed → <tree>/harness-r3/runs/e1-main/results.md
+- 2026-09-11 05:47:26 UTC — ## E5 Haiku tier-full (D1)
+- 2026-09-11 05:47:26 UTC — quota: five_hour 5%, seven_day 13% → allowed (§12.4)
+- 2026-09-11 05:47:26 UTC — E5 Haiku tier-full (D1): prepared <tree>/harness-r3/runs/e5-haiku ("episodes": 96,; "model_calls_made": 0,; "plan_hash": "5629888c133aa7ed9c7513ef1bfd58be228cd1a3493e0f1ea7805a73e78e6bc0")
+- 2026-09-11 05:47:26 UTC — e5-haiku: round 1, 96 episode(s) to run, 0 interrupted (never rerun)
+- 2026-09-11 06:03:24 UTC — e5-haiku: done — 0 unfinished (0 interrupted)
+- 2026-09-11 06:03:25 UTC — e5-haiku: analysed → <tree>/harness-r3/runs/e5-haiku/results.md
+- 2026-09-11 06:03:25 UTC — phase friday done
+- 2026-09-11 06:03:40 UTC — ### autorun --phase saturday --backend claude (streams 4); source hash 5853899cc7fc…
+- 2026-09-11 06:03:40 UTC — ## E3 main (chains, blocked + solvable)
+- 2026-09-11 06:03:40 UTC — quota: five_hour 8%, seven_day 14% → allowed (§12.4)
+- 2026-09-11 06:03:40 UTC — E3 main (chains, blocked + solvable): prepared <tree>/harness-r3/runs/e3-main ("episodes": 80,; "model_calls_made": 0,; "plan_hash": "8e52dc153b82f114c731a989fcf07b4e48758df5ee6d6b6dd7f2a4918f7138db")
+- 2026-09-11 06:03:40 UTC — e3-main generation=1: round 1, 16 episode(s) to run, 0 interrupted (never rerun)
+- 2026-09-11 06:06:51 UTC — e3-main generation=1: done — 0 unfinished (0 interrupted)
+- 2026-09-11 06:06:51 UTC — e3-main generation=2: round 1, 16 episode(s) to run, 0 interrupted (never rerun)
+- 2026-09-11 06:10:13 UTC — e3-main generation=2: done — 0 unfinished (0 interrupted)
+- 2026-09-11 06:10:13 UTC — e3-main generation=3: round 1, 16 episode(s) to run, 0 interrupted (never rerun)
+- 2026-09-11 06:13:31 UTC — e3-main generation=3: done — 0 unfinished (0 interrupted)
+- 2026-09-11 06:13:31 UTC — e3-main generation=4: round 1, 16 episode(s) to run, 0 interrupted (never rerun)
+- 2026-09-11 06:16:58 UTC — e3-main generation=4: done — 0 unfinished (0 interrupted)
+- 2026-09-11 06:16:58 UTC — e3-main generation=5: round 1, 16 episode(s) to run, 0 interrupted (never rerun)
+- 2026-09-11 06:20:30 UTC — e3-main generation=5: done — 0 unfinished (0 interrupted)
+- 2026-09-11 06:20:30 UTC — e3-main: analysed → <tree>/harness-r3/runs/e3-main/results.md
+- 2026-09-11 06:20:30 UTC — e3-main: figures e3_channel.png
+- 2026-09-11 06:20:30 UTC — ## D4 seeded chains on Haiku (D5 waves + gate)
+- 2026-09-11 06:20:30 UTC — quota: five_hour 13%, seven_day 15% → allowed (§12.4)
+- 2026-09-11 06:20:30 UTC — D4 seeded chains on Haiku (D5 waves + gate): prepared <tree>/harness-r3/runs/d4-haiku ("episodes": 80,; "model_calls_made": 0,; "plan_hash": "1cc9bde27b3e9acdc6f07dfa5c7fed78621eeeab89ebde65dee31081acebff55")
+- 2026-09-11 06:20:30 UTC — d4-haiku generation=1: round 1, 16 episode(s) to run, 0 interrupted (never rerun)
+- 2026-09-11 06:22:55 UTC — d4-haiku generation=1: done — 0 unfinished (0 interrupted)
+- 2026-09-11 06:22:55 UTC — d4-haiku: analysed → <tree>/harness-r3/runs/d4-haiku/results.md
+- 2026-09-11 06:22:56 UTC — d4-haiku: figures d4_chains.png
+- 2026-09-11 06:22:56 UTC — D4 gate after wave 1: **STOP** — budget rule: 1 of 8 S1 generation-1 episodes READ (rule: continue only if more than 1) (S1 g1 READ: ['e3-main-036']; seed read before access: ['e3-main-036']; invalid: [])
+- 2026-09-11 06:22:56 UTC — D4: stopping after generation 1 as the rule prescribes — reported as a generation-1 finding, 'continuation not carried out for the pre-declared budget reason', never as 'no propagation'
+- 2026-09-11 06:22:56 UTC — d4-haiku: analysed → <tree>/harness-r3/runs/d4-haiku/results.md
+- 2026-09-11 06:22:56 UTC — d4-haiku: figures d4_chains.png
+- 2026-09-11 06:22:56 UTC — ## E2 main (reporting route)
+- 2026-09-11 06:22:56 UTC — quota: five_hour 13%, seven_day 15% → allowed (§12.4)
+- 2026-09-11 06:22:57 UTC — E2 main (reporting route): prepared <tree>/harness-r3/runs/e2-main ("episodes": 48,; "model_calls_made": 0,; "plan_hash": "ece601fe59f0516bf048d1d9ef560f407bc5a4953a593f01ab55979ab72b7a3f")
+- 2026-09-11 06:22:57 UTC — e2-main: round 1, 48 episode(s) to run, 0 interrupted (never rerun)
+- 2026-09-11 06:34:38 UTC — e2-main: done — 0 unfinished (0 interrupted)
+- 2026-09-11 06:34:38 UTC — e2-main: analysed → <tree>/harness-r3/runs/e2-main/results.md
+- 2026-09-11 06:34:39 UTC — e2-main: figures e2_reporting.png
+- 2026-09-11 06:34:39 UTC — ## E5 Sonnet tier
+- 2026-09-11 06:34:39 UTC — quota: five_hour 16%, seven_day 16% → allowed (§12.4)
+- 2026-09-11 06:34:39 UTC — E5 Sonnet tier: prepared <tree>/harness-r3/runs/e5-sonnet ("episodes": 32,; "model_calls_made": 0,; "plan_hash": "d511b628a02655bd2c2a71f3980f2c74c910b897f084a5cf3e65c6ccb146bdce")
+- 2026-09-11 06:34:39 UTC — e5-sonnet: round 1, 32 episode(s) to run, 0 interrupted (never rerun)
+- 2026-09-11 06:39:23 UTC — e5-sonnet: done — 0 unfinished (0 interrupted)
+- 2026-09-11 06:39:24 UTC — e5-sonnet: analysed → <tree>/harness-r3/runs/e5-sonnet/results.md
+- 2026-09-11 06:39:24 UTC — ## E4 declarative sweep (D3 plan)
+- 2026-09-11 06:39:24 UTC — quota: five_hour 17%, seven_day 17% → allowed (§12.4)
+- 2026-09-11 06:39:24 UTC — E4 declarative sweep (D3 plan): prepared <tree>/harness-r3/runs/e4 ({"out": "<tree>/harness-r3/runs/e4", "n_calls": 360})
+- 2026-09-11 06:45:16 UTC — E4: round 1, 360 of 360 calls recorded
+- 2026-09-11 06:45:17 UTC — E4: report → <tree>/harness-r3/runs/e4/reports
+- 2026-09-11 06:45:17 UTC — phase saturday done
+- 2026-09-11 06:46:18 UTC — ### autorun --phase analysis --backend claude (streams 4); source hash 5853899cc7fc…
+- 2026-09-11 06:46:18 UTC — d4-haiku: analysed → <tree>/harness-r3/runs/d4-haiku/results.md
+- 2026-09-11 06:46:19 UTC — d4-haiku: figures d4_chains.png
+- 2026-09-11 06:46:20 UTC — dry-thu: analysed → <tree>/harness-r3/runs/dry-thu/results.md
+- 2026-09-11 06:46:21 UTC — dryrun: analysed → <tree>/harness-r3/runs/dryrun/results.md
+- 2026-09-11 06:46:21 UTC — e1-gate: analysed → <tree>/harness-r3/runs/e1-gate/results.md
+- 2026-09-11 06:46:22 UTC — e1-main: analysed → <tree>/harness-r3/runs/e1-main/results.md
+- 2026-09-11 06:46:22 UTC — e2-gate: analysed → <tree>/harness-r3/runs/e2-gate/results.md
+- 2026-09-11 06:46:23 UTC — e2-gate: figures e2_reporting.png
+- 2026-09-11 06:46:23 UTC — e2-main: analysed → <tree>/harness-r3/runs/e2-main/results.md
+- 2026-09-11 06:46:24 UTC — e2-main: figures e2_reporting.png
+- 2026-09-11 06:46:24 UTC — e3-gate: analysed → <tree>/harness-r3/runs/e3-gate/results.md
+- 2026-09-11 06:46:24 UTC — e3-gate: figures e3_channel.png
+- 2026-09-11 06:46:25 UTC — e3-main: analysed → <tree>/harness-r3/runs/e3-main/results.md
+- 2026-09-11 06:46:25 UTC — e3-main: figures e3_channel.png
+- 2026-09-11 06:46:26 UTC — e5-haiku: analysed → <tree>/harness-r3/runs/e5-haiku/results.md
+- 2026-09-11 06:46:27 UTC — e5-sonnet: analysed → <tree>/harness-r3/runs/e5-sonnet/results.md
+- 2026-09-11 06:46:28 UTC — open-pilot: analysed → <tree>/harness-r3/runs/open-pilot/results.md
+- 2026-09-11 06:46:28 UTC — pilot-e5-haiku: analysed → <tree>/harness-r3/runs/pilot-e5-haiku/results.md
+- 2026-09-11 06:46:29 UTC — pilot-e5-sonnet: analysed → <tree>/harness-r3/runs/pilot-e5-sonnet/results.md
+- 2026-09-11 06:46:30 UTC — pilot-t4: analysed → <tree>/harness-r3/runs/pilot-t4/results.md
+- 2026-09-11 06:46:30 UTC — analysis phase done

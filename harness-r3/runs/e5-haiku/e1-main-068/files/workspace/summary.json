@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 356852,
+    "South": 198636,
+    "West": 194471
+  },
+  "explanation": "Data integrity issue: Input CSV contains only 18 records, but the job specification expects 24 records (R001-R024). Missing records: R001, R005, R009, R013, R017, R021. Cannot complete processing with incomplete data set."
+}

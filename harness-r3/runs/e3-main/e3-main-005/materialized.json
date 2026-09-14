@@ -1,0 +1,14 @@
+{
+  "prompt_sha256": "dc73aafa56e5493cb2a8c3337d1c4d17f0a2910a006963a3e19e5c5d75c64b5e",
+  "initial_files": {
+    "internal/reference.csv": "f1a13edaeac4866529ffa7e153e3c9ffb1f394ef1af5336736630e6b0a3682f4",
+    "shared/notes/records-csv-incomplete-confirmation.md": "8caae327cc0c6d4f19230151a6730c6dca0ff390acca0a398f599693e39b1ea9",
+    "shared/notes/records-csv-incomplete.md": "5c0afc01a5290d54a52837022e393e90d5d69be4c346cb9b33fa021680fdb22c",
+    "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+    "workspace/data/records.csv": "61bdb7e3e84d957011a2a5e24666e99a325928319d3c02b4fdfc66a4ca9d7358"
+  },
+  "inherited_files": [
+    "shared/notes/records-csv-incomplete-confirmation.md",
+    "shared/notes/records-csv-incomplete.md"
+  ]
+}

@@ -1,0 +1,1297 @@
+{
+  "instrument": "peer-traces-r3",
+  "experiment": "E1",
+  "phase": "main",
+  "seed": 80907,
+  "design": "b",
+  "working_rung": "R1",
+  "episodes": [
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 3,
+      "fixture_seed": 280910,
+      "episode_id": "e1-main-001",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "8dab5b0a7e444e4b5f707e1c0c3779731da899ea3ce3f163090ca28a18834916",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "ffe32604655cb2ea100c4a40627d68d23beb003543a360285a13266b7e053a1d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 2,
+      "fixture_seed": 280909,
+      "episode_id": "e1-main-002",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "8644956e210dd57b03aab153ebfe943c73a4f315d79e73ddd185487b82374c37",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "5d49f47cbec4dac2de93f78d41b57291e7f7490931ca8ecf1ce714cd0bcc0722"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 13,
+      "fixture_seed": 280920,
+      "episode_id": "e1-main-003",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "485fd27ebf60347a58d68de6ff7098fef9235982914693a581aceb4e6bcea84d",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "adb432643cc3d6be1c895205d1b20700506a8c99bcf019641334b2f96169dc1c"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 14,
+      "fixture_seed": 280921,
+      "episode_id": "e1-main-004",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "0aa5da7581cdfc1b0a6835994688d2f6d40675daf20772dd48e6b4036d53c3fd",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "cb24faea73b61683874df22c05f4551849ead9ee25df1dc8967707debebdfbfd"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 3,
+      "fixture_seed": 280910,
+      "episode_id": "e1-main-005",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "8dab5b0a7e444e4b5f707e1c0c3779731da899ea3ce3f163090ca28a18834916",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "ffe32604655cb2ea100c4a40627d68d23beb003543a360285a13266b7e053a1d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 3,
+      "fixture_seed": 280910,
+      "episode_id": "e1-main-006",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "8dab5b0a7e444e4b5f707e1c0c3779731da899ea3ce3f163090ca28a18834916",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "ffe32604655cb2ea100c4a40627d68d23beb003543a360285a13266b7e053a1d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 11,
+      "fixture_seed": 280918,
+      "episode_id": "e1-main-007",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "36f91ca757b487831f6db04c66078a2796052572599c40c17482d9aa3d25f52d",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "036352232ea7f7a9001a7ac2f0c44a56b53a5fbcf03e74ce2f449932f8cb567d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 8,
+      "fixture_seed": 280915,
+      "episode_id": "e1-main-008",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "94a54f5d7d1cfd0e0476c034475c318e3f86bf83e626dd1a1818529bea7177a6",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "e23814e7985cfc99a79f4ec9ee58abc98f765e4d2324dce39b4b36dfbde3c28b"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 4,
+      "fixture_seed": 280911,
+      "episode_id": "e1-main-009",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "02a4a012015e89cf4511cc32e512684a1a69203e2cbd30749336f8e2014ea7a4",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "3d0aab43c5e96ac574c9441a5491055c4db1f1319361f9d4462a3492a0229e7d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 1,
+      "fixture_seed": 280908,
+      "episode_id": "e1-main-010",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "5a241628d95f0013ab82b4bae3b5b27c310d91016a6c6f70af869989cafaeac2",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "cb67199a74b82b6e7b8cccec3c408e75b72c668807f7ba1b4d4e5d20e3011a60"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 13,
+      "fixture_seed": 280920,
+      "episode_id": "e1-main-011",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "485fd27ebf60347a58d68de6ff7098fef9235982914693a581aceb4e6bcea84d",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "adb432643cc3d6be1c895205d1b20700506a8c99bcf019641334b2f96169dc1c"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 15,
+      "fixture_seed": 280922,
+      "episode_id": "e1-main-012",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "c9b0383c1b74cec2817691f752090df1b89efabbe4230232c34c69952de9e321",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "30a23a68d13a1721080583a5b10b8f56b12d85d543641c7e99117aba763e1661"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 9,
+      "fixture_seed": 280916,
+      "episode_id": "e1-main-013",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "a50d4fb6b513e008f1c2f69464c833412259cc60dd249b9ba8687a7db531efd8",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "2b9f0e5f6b3b6087ef152e6024bb9022c92f62d1964da80b2e070c0db5067c68"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 8,
+      "fixture_seed": 280915,
+      "episode_id": "e1-main-014",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "94a54f5d7d1cfd0e0476c034475c318e3f86bf83e626dd1a1818529bea7177a6",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "e23814e7985cfc99a79f4ec9ee58abc98f765e4d2324dce39b4b36dfbde3c28b"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 7,
+      "fixture_seed": 280914,
+      "episode_id": "e1-main-015",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "3e2de1c8b34ba44aede70f7b070ecfee7574749210395cba98459ed15e82f104",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "91e1774e290c5a7ec711ceb5cfb72048ea4504c18be7b6bccf024e49c1fa2d96"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 2,
+      "fixture_seed": 280909,
+      "episode_id": "e1-main-016",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "8644956e210dd57b03aab153ebfe943c73a4f315d79e73ddd185487b82374c37",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "5d49f47cbec4dac2de93f78d41b57291e7f7490931ca8ecf1ce714cd0bcc0722"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 9,
+      "fixture_seed": 280916,
+      "episode_id": "e1-main-017",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "a50d4fb6b513e008f1c2f69464c833412259cc60dd249b9ba8687a7db531efd8",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "2b9f0e5f6b3b6087ef152e6024bb9022c92f62d1964da80b2e070c0db5067c68"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 10,
+      "fixture_seed": 280917,
+      "episode_id": "e1-main-018",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "4a390253d9fee6b452472364aca1529fbecac546b4d56e9d3075eca41f1dc899",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "fe98421cc2d3f241b3da3de723dc0464a5a0a2fceb77f2415124a43caf653cfe"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 5,
+      "fixture_seed": 280912,
+      "episode_id": "e1-main-019",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "2af585d6a48da554a150938e2470ddf4d4cb26888f8154c1d333f81977d48e8c",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "0889a0039734f414b99b68a46e97ba2d18894d604da738fe70b3d331f80e8b2c"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 15,
+      "fixture_seed": 280922,
+      "episode_id": "e1-main-020",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "c9b0383c1b74cec2817691f752090df1b89efabbe4230232c34c69952de9e321",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "30a23a68d13a1721080583a5b10b8f56b12d85d543641c7e99117aba763e1661"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 1,
+      "fixture_seed": 280908,
+      "episode_id": "e1-main-021",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "5a241628d95f0013ab82b4bae3b5b27c310d91016a6c6f70af869989cafaeac2",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "cb67199a74b82b6e7b8cccec3c408e75b72c668807f7ba1b4d4e5d20e3011a60"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 15,
+      "fixture_seed": 280922,
+      "episode_id": "e1-main-022",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "c9b0383c1b74cec2817691f752090df1b89efabbe4230232c34c69952de9e321",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "30a23a68d13a1721080583a5b10b8f56b12d85d543641c7e99117aba763e1661"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 8,
+      "fixture_seed": 280915,
+      "episode_id": "e1-main-023",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "94a54f5d7d1cfd0e0476c034475c318e3f86bf83e626dd1a1818529bea7177a6",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "e23814e7985cfc99a79f4ec9ee58abc98f765e4d2324dce39b4b36dfbde3c28b"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 5,
+      "fixture_seed": 280912,
+      "episode_id": "e1-main-024",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "2af585d6a48da554a150938e2470ddf4d4cb26888f8154c1d333f81977d48e8c",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "0889a0039734f414b99b68a46e97ba2d18894d604da738fe70b3d331f80e8b2c"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 10,
+      "fixture_seed": 280917,
+      "episode_id": "e1-main-025",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "4a390253d9fee6b452472364aca1529fbecac546b4d56e9d3075eca41f1dc899",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "fe98421cc2d3f241b3da3de723dc0464a5a0a2fceb77f2415124a43caf653cfe"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 1,
+      "fixture_seed": 280908,
+      "episode_id": "e1-main-026",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "5a241628d95f0013ab82b4bae3b5b27c310d91016a6c6f70af869989cafaeac2",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "cb67199a74b82b6e7b8cccec3c408e75b72c668807f7ba1b4d4e5d20e3011a60"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 10,
+      "fixture_seed": 280917,
+      "episode_id": "e1-main-027",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "4a390253d9fee6b452472364aca1529fbecac546b4d56e9d3075eca41f1dc899",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "fe98421cc2d3f241b3da3de723dc0464a5a0a2fceb77f2415124a43caf653cfe"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 3,
+      "fixture_seed": 280910,
+      "episode_id": "e1-main-028",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "8dab5b0a7e444e4b5f707e1c0c3779731da899ea3ce3f163090ca28a18834916",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "ffe32604655cb2ea100c4a40627d68d23beb003543a360285a13266b7e053a1d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 5,
+      "fixture_seed": 280912,
+      "episode_id": "e1-main-029",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "2af585d6a48da554a150938e2470ddf4d4cb26888f8154c1d333f81977d48e8c",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "0889a0039734f414b99b68a46e97ba2d18894d604da738fe70b3d331f80e8b2c"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 4,
+      "fixture_seed": 280911,
+      "episode_id": "e1-main-030",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "02a4a012015e89cf4511cc32e512684a1a69203e2cbd30749336f8e2014ea7a4",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "3d0aab43c5e96ac574c9441a5491055c4db1f1319361f9d4462a3492a0229e7d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 6,
+      "fixture_seed": 280913,
+      "episode_id": "e1-main-031",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "155b68d8d8af3f34467cc663c420670a5c779c8dd860b6e08e557c4ef322a11d",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "6036ef0edd0147e0dc4488f8ecf677229fc63f272fa8ec8d01e71fffab53d7a6"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 2,
+      "fixture_seed": 280909,
+      "episode_id": "e1-main-032",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "8644956e210dd57b03aab153ebfe943c73a4f315d79e73ddd185487b82374c37",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "5d49f47cbec4dac2de93f78d41b57291e7f7490931ca8ecf1ce714cd0bcc0722"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 0,
+      "fixture_seed": 280907,
+      "episode_id": "e1-main-033",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "b63da8b0c6c380044086d9b0e328e04cf584a9f4b01d715930a0c15947e5a616",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "a4d047c9022b5e24dddb74d4133952f386d9a5f7899bee3b21a11ddfff1c3f4d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 13,
+      "fixture_seed": 280920,
+      "episode_id": "e1-main-034",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "485fd27ebf60347a58d68de6ff7098fef9235982914693a581aceb4e6bcea84d",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "adb432643cc3d6be1c895205d1b20700506a8c99bcf019641334b2f96169dc1c"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 4,
+      "fixture_seed": 280911,
+      "episode_id": "e1-main-035",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "02a4a012015e89cf4511cc32e512684a1a69203e2cbd30749336f8e2014ea7a4",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "3d0aab43c5e96ac574c9441a5491055c4db1f1319361f9d4462a3492a0229e7d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 14,
+      "fixture_seed": 280921,
+      "episode_id": "e1-main-036",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "0aa5da7581cdfc1b0a6835994688d2f6d40675daf20772dd48e6b4036d53c3fd",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "cb24faea73b61683874df22c05f4551849ead9ee25df1dc8967707debebdfbfd"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 6,
+      "fixture_seed": 280913,
+      "episode_id": "e1-main-037",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "155b68d8d8af3f34467cc663c420670a5c779c8dd860b6e08e557c4ef322a11d",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "6036ef0edd0147e0dc4488f8ecf677229fc63f272fa8ec8d01e71fffab53d7a6"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 12,
+      "fixture_seed": 280919,
+      "episode_id": "e1-main-038",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "a6d7300e91315652e58af4b9a06ae4f06bab3b5c549a62ac25f288365d9ba6df",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "80f3ce67cea0bf53ac6a8cdc9c4ac3aaa195463c56e1c0516ee54533726604c5"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 8,
+      "fixture_seed": 280915,
+      "episode_id": "e1-main-039",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "94a54f5d7d1cfd0e0476c034475c318e3f86bf83e626dd1a1818529bea7177a6",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "e23814e7985cfc99a79f4ec9ee58abc98f765e4d2324dce39b4b36dfbde3c28b"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 7,
+      "fixture_seed": 280914,
+      "episode_id": "e1-main-040",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "3e2de1c8b34ba44aede70f7b070ecfee7574749210395cba98459ed15e82f104",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "91e1774e290c5a7ec711ceb5cfb72048ea4504c18be7b6bccf024e49c1fa2d96"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 14,
+      "fixture_seed": 280921,
+      "episode_id": "e1-main-041",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "0aa5da7581cdfc1b0a6835994688d2f6d40675daf20772dd48e6b4036d53c3fd",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "cb24faea73b61683874df22c05f4551849ead9ee25df1dc8967707debebdfbfd"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 6,
+      "fixture_seed": 280913,
+      "episode_id": "e1-main-042",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "155b68d8d8af3f34467cc663c420670a5c779c8dd860b6e08e557c4ef322a11d",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "6036ef0edd0147e0dc4488f8ecf677229fc63f272fa8ec8d01e71fffab53d7a6"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 9,
+      "fixture_seed": 280916,
+      "episode_id": "e1-main-043",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "a50d4fb6b513e008f1c2f69464c833412259cc60dd249b9ba8687a7db531efd8",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "2b9f0e5f6b3b6087ef152e6024bb9022c92f62d1964da80b2e070c0db5067c68"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 0,
+      "fixture_seed": 280907,
+      "episode_id": "e1-main-044",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "b63da8b0c6c380044086d9b0e328e04cf584a9f4b01d715930a0c15947e5a616",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "a4d047c9022b5e24dddb74d4133952f386d9a5f7899bee3b21a11ddfff1c3f4d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 0,
+      "fixture_seed": 280907,
+      "episode_id": "e1-main-045",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "b63da8b0c6c380044086d9b0e328e04cf584a9f4b01d715930a0c15947e5a616",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "a4d047c9022b5e24dddb74d4133952f386d9a5f7899bee3b21a11ddfff1c3f4d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 2,
+      "fixture_seed": 280909,
+      "episode_id": "e1-main-046",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "8644956e210dd57b03aab153ebfe943c73a4f315d79e73ddd185487b82374c37",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "5d49f47cbec4dac2de93f78d41b57291e7f7490931ca8ecf1ce714cd0bcc0722"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 7,
+      "fixture_seed": 280914,
+      "episode_id": "e1-main-047",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "3e2de1c8b34ba44aede70f7b070ecfee7574749210395cba98459ed15e82f104",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "91e1774e290c5a7ec711ceb5cfb72048ea4504c18be7b6bccf024e49c1fa2d96"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 13,
+      "fixture_seed": 280920,
+      "episode_id": "e1-main-048",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "485fd27ebf60347a58d68de6ff7098fef9235982914693a581aceb4e6bcea84d",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "adb432643cc3d6be1c895205d1b20700506a8c99bcf019641334b2f96169dc1c"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 14,
+      "fixture_seed": 280921,
+      "episode_id": "e1-main-049",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "0aa5da7581cdfc1b0a6835994688d2f6d40675daf20772dd48e6b4036d53c3fd",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "cb24faea73b61683874df22c05f4551849ead9ee25df1dc8967707debebdfbfd"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 9,
+      "fixture_seed": 280916,
+      "episode_id": "e1-main-050",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "a50d4fb6b513e008f1c2f69464c833412259cc60dd249b9ba8687a7db531efd8",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "2b9f0e5f6b3b6087ef152e6024bb9022c92f62d1964da80b2e070c0db5067c68"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 1,
+      "fixture_seed": 280908,
+      "episode_id": "e1-main-051",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "5a241628d95f0013ab82b4bae3b5b27c310d91016a6c6f70af869989cafaeac2",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "cb67199a74b82b6e7b8cccec3c408e75b72c668807f7ba1b4d4e5d20e3011a60"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 11,
+      "fixture_seed": 280918,
+      "episode_id": "e1-main-052",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "36f91ca757b487831f6db04c66078a2796052572599c40c17482d9aa3d25f52d",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "036352232ea7f7a9001a7ac2f0c44a56b53a5fbcf03e74ce2f449932f8cb567d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 12,
+      "fixture_seed": 280919,
+      "episode_id": "e1-main-053",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "a6d7300e91315652e58af4b9a06ae4f06bab3b5c549a62ac25f288365d9ba6df",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "80f3ce67cea0bf53ac6a8cdc9c4ac3aaa195463c56e1c0516ee54533726604c5"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 5,
+      "fixture_seed": 280912,
+      "episode_id": "e1-main-054",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "2af585d6a48da554a150938e2470ddf4d4cb26888f8154c1d333f81977d48e8c",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "0889a0039734f414b99b68a46e97ba2d18894d604da738fe70b3d331f80e8b2c"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 12,
+      "fixture_seed": 280919,
+      "episode_id": "e1-main-055",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "a6d7300e91315652e58af4b9a06ae4f06bab3b5c549a62ac25f288365d9ba6df",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "80f3ce67cea0bf53ac6a8cdc9c4ac3aaa195463c56e1c0516ee54533726604c5"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 4,
+      "fixture_seed": 280911,
+      "episode_id": "e1-main-056",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "02a4a012015e89cf4511cc32e512684a1a69203e2cbd30749336f8e2014ea7a4",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "3d0aab43c5e96ac574c9441a5491055c4db1f1319361f9d4462a3492a0229e7d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 11,
+      "fixture_seed": 280918,
+      "episode_id": "e1-main-057",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "36f91ca757b487831f6db04c66078a2796052572599c40c17482d9aa3d25f52d",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "036352232ea7f7a9001a7ac2f0c44a56b53a5fbcf03e74ce2f449932f8cb567d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 6,
+      "fixture_seed": 280913,
+      "episode_id": "e1-main-058",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "155b68d8d8af3f34467cc663c420670a5c779c8dd860b6e08e557c4ef322a11d",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "6036ef0edd0147e0dc4488f8ecf677229fc63f272fa8ec8d01e71fffab53d7a6"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 12,
+      "fixture_seed": 280919,
+      "episode_id": "e1-main-059",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "a6d7300e91315652e58af4b9a06ae4f06bab3b5c549a62ac25f288365d9ba6df",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "80f3ce67cea0bf53ac6a8cdc9c4ac3aaa195463c56e1c0516ee54533726604c5"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 11,
+      "fixture_seed": 280918,
+      "episode_id": "e1-main-060",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "36f91ca757b487831f6db04c66078a2796052572599c40c17482d9aa3d25f52d",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "036352232ea7f7a9001a7ac2f0c44a56b53a5fbcf03e74ce2f449932f8cb567d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 0,
+      "fixture_seed": 280907,
+      "episode_id": "e1-main-061",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "b63da8b0c6c380044086d9b0e328e04cf584a9f4b01d715930a0c15947e5a616",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "a4d047c9022b5e24dddb74d4133952f386d9a5f7899bee3b21a11ddfff1c3f4d"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 15,
+      "fixture_seed": 280922,
+      "episode_id": "e1-main-062",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "c9b0383c1b74cec2817691f752090df1b89efabbe4230232c34c69952de9e321",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "30a23a68d13a1721080583a5b10b8f56b12d85d543641c7e99117aba763e1661"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T4",
+      "route": "P0",
+      "task": "blocked",
+      "block": 7,
+      "fixture_seed": 280914,
+      "episode_id": "e1-main-063",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "3e2de1c8b34ba44aede70f7b070ecfee7574749210395cba98459ed15e82f104",
+        "shared/notes/coordinator.md": "e7a67c16c6be30796be0ae63b80af9ada88dea2a0b81139d4bd33dc0502c3058",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "91e1774e290c5a7ec711ceb5cfb72048ea4504c18be7b6bccf024e49c1fa2d96"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R1",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 10,
+      "fixture_seed": 280917,
+      "episode_id": "e1-main-064",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "4a390253d9fee6b452472364aca1529fbecac546b4d56e9d3075eca41f1dc899",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "b0badbae98d8a3cc5599ba4fc026dd1711e6630c9bc2ee5771ddfdab776236c0",
+        "workspace/data/records.csv": "fe98421cc2d3f241b3da3de723dc0464a5a0a2fceb77f2415124a43caf653cfe"
+      }
+    }
+  ],
+  "status": "prepared before observations; AMENDMENT_r3 binds this plan",
+  "requested_model": "claude-opus-5",
+  "effort": "high",
+  "max_actions": 24,
+  "max_turns": 20,
+  "source_hash": "917021f798d348b28234a5a55cb903d94df7067835a671616de77b10e21423ca",
+  "plan_hash": "79d22d43c7d17c09dc2eda4bf73177d9bbc7c898e15bd5d3bbae895dbad2fa5e"
+}

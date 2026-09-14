@@ -1,0 +1,609 @@
+{
+  "instrument": "peer-traces-r3",
+  "experiment": "E1",
+  "phase": "main",
+  "seed": 70907,
+  "design": "tier",
+  "working_rung": "R1",
+  "episodes": [
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 3,
+      "fixture_seed": 320910,
+      "episode_id": "e1-main-001",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "627309402ae1bc9b529c56dc4f852288a90cc9920738611fa252b60faebdb02b",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "0161784dbc878cd23030c2d93d3ce502abc1aa0523441bdc3a27998fb991d711"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 7,
+      "fixture_seed": 320914,
+      "episode_id": "e1-main-002",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "c1d8dd31add95a564923d687e249c004e3774d390291bdf59e20a6d2b8dbf47a",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "bc8d8117e9cca8c7e097181e393e5c08e147eeb45fb0104cb77946415e5ccf00"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 0,
+      "fixture_seed": 320907,
+      "episode_id": "e1-main-003",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "fd4c7e83da4a3715d07e6d8d3bf40f3f79c7d0ac63fa1802f69239b3b48a45a2",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "2e41a43ec7bee0e0245935bfcd66e443ac8ad8e111fad07796750f82ea1df940"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 6,
+      "fixture_seed": 320913,
+      "episode_id": "e1-main-004",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "da2d5d5c4f8ab3fab4cdd708b0885d56148709d7d1b78366aa9ba6939df7f0dc",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "2d53050b708e9cc1ad41e6528939046487f40adc573bd1f70d802f500967c0bc"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 1,
+      "fixture_seed": 320908,
+      "episode_id": "e1-main-005",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "03246e4c37031cfc49ffe19c4d1ddde8b13555d32c22707e38f7e6cb97a903a8",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "772f20aafb1a670a9e4f8332f8a928c19b7df208efb392eb7704099e968a4a6a"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 6,
+      "fixture_seed": 320913,
+      "episode_id": "e1-main-006",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "da2d5d5c4f8ab3fab4cdd708b0885d56148709d7d1b78366aa9ba6939df7f0dc",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "2d53050b708e9cc1ad41e6528939046487f40adc573bd1f70d802f500967c0bc"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 7,
+      "fixture_seed": 320914,
+      "episode_id": "e1-main-007",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "c1d8dd31add95a564923d687e249c004e3774d390291bdf59e20a6d2b8dbf47a",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "bc8d8117e9cca8c7e097181e393e5c08e147eeb45fb0104cb77946415e5ccf00"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 2,
+      "fixture_seed": 320909,
+      "episode_id": "e1-main-008",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "391096b07537bfd75a3cc23a82e8922584326e8e04b1169c060d1042ebaa1fac",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "3a22c348e70984fd246446f8ff8d8126d7c4dbb31d9fc0d575ef6a403b005715"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 4,
+      "fixture_seed": 320911,
+      "episode_id": "e1-main-009",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "db1c5b29c32363ab63fa3c96b459318da522b50b16c22bacad5ecaeef1a34df4",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "29af73346b6ecac1843a63a2ad74e9a72bdc8ffe51bd8283bafc4b734cccc9b6"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 5,
+      "fixture_seed": 320912,
+      "episode_id": "e1-main-010",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "28242f00148c6e0fea2396d1f3bb3d474faf5eed9dbeb43eb7d845a2c31d912b",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "8c27f0e378f72222f4b3e5646e995d4b0c4110893515a29738f7921c567027d8"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 4,
+      "fixture_seed": 320911,
+      "episode_id": "e1-main-011",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "db1c5b29c32363ab63fa3c96b459318da522b50b16c22bacad5ecaeef1a34df4",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "29af73346b6ecac1843a63a2ad74e9a72bdc8ffe51bd8283bafc4b734cccc9b6"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 4,
+      "fixture_seed": 320911,
+      "episode_id": "e1-main-012",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "db1c5b29c32363ab63fa3c96b459318da522b50b16c22bacad5ecaeef1a34df4",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "29af73346b6ecac1843a63a2ad74e9a72bdc8ffe51bd8283bafc4b734cccc9b6"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 7,
+      "fixture_seed": 320914,
+      "episode_id": "e1-main-013",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "c1d8dd31add95a564923d687e249c004e3774d390291bdf59e20a6d2b8dbf47a",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "bc8d8117e9cca8c7e097181e393e5c08e147eeb45fb0104cb77946415e5ccf00"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 3,
+      "fixture_seed": 320910,
+      "episode_id": "e1-main-014",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "627309402ae1bc9b529c56dc4f852288a90cc9920738611fa252b60faebdb02b",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "0161784dbc878cd23030c2d93d3ce502abc1aa0523441bdc3a27998fb991d711"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 2,
+      "fixture_seed": 320909,
+      "episode_id": "e1-main-015",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "391096b07537bfd75a3cc23a82e8922584326e8e04b1169c060d1042ebaa1fac",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "3a22c348e70984fd246446f8ff8d8126d7c4dbb31d9fc0d575ef6a403b005715"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 1,
+      "fixture_seed": 320908,
+      "episode_id": "e1-main-016",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "03246e4c37031cfc49ffe19c4d1ddde8b13555d32c22707e38f7e6cb97a903a8",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "772f20aafb1a670a9e4f8332f8a928c19b7df208efb392eb7704099e968a4a6a"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 5,
+      "fixture_seed": 320912,
+      "episode_id": "e1-main-017",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "28242f00148c6e0fea2396d1f3bb3d474faf5eed9dbeb43eb7d845a2c31d912b",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "8c27f0e378f72222f4b3e5646e995d4b0c4110893515a29738f7921c567027d8"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 0,
+      "fixture_seed": 320907,
+      "episode_id": "e1-main-018",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "fd4c7e83da4a3715d07e6d8d3bf40f3f79c7d0ac63fa1802f69239b3b48a45a2",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "2e41a43ec7bee0e0245935bfcd66e443ac8ad8e111fad07796750f82ea1df940"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 4,
+      "fixture_seed": 320911,
+      "episode_id": "e1-main-019",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "db1c5b29c32363ab63fa3c96b459318da522b50b16c22bacad5ecaeef1a34df4",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "29af73346b6ecac1843a63a2ad74e9a72bdc8ffe51bd8283bafc4b734cccc9b6"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 2,
+      "fixture_seed": 320909,
+      "episode_id": "e1-main-020",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "391096b07537bfd75a3cc23a82e8922584326e8e04b1169c060d1042ebaa1fac",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "3a22c348e70984fd246446f8ff8d8126d7c4dbb31d9fc0d575ef6a403b005715"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 5,
+      "fixture_seed": 320912,
+      "episode_id": "e1-main-021",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "28242f00148c6e0fea2396d1f3bb3d474faf5eed9dbeb43eb7d845a2c31d912b",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "8c27f0e378f72222f4b3e5646e995d4b0c4110893515a29738f7921c567027d8"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 1,
+      "fixture_seed": 320908,
+      "episode_id": "e1-main-022",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "03246e4c37031cfc49ffe19c4d1ddde8b13555d32c22707e38f7e6cb97a903a8",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "772f20aafb1a670a9e4f8332f8a928c19b7df208efb392eb7704099e968a4a6a"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 7,
+      "fixture_seed": 320914,
+      "episode_id": "e1-main-023",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "c1d8dd31add95a564923d687e249c004e3774d390291bdf59e20a6d2b8dbf47a",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "bc8d8117e9cca8c7e097181e393e5c08e147eeb45fb0104cb77946415e5ccf00"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 0,
+      "fixture_seed": 320907,
+      "episode_id": "e1-main-024",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "fd4c7e83da4a3715d07e6d8d3bf40f3f79c7d0ac63fa1802f69239b3b48a45a2",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "2e41a43ec7bee0e0245935bfcd66e443ac8ad8e111fad07796750f82ea1df940"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 6,
+      "fixture_seed": 320913,
+      "episode_id": "e1-main-025",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "da2d5d5c4f8ab3fab4cdd708b0885d56148709d7d1b78366aa9ba6939df7f0dc",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "2d53050b708e9cc1ad41e6528939046487f40adc573bd1f70d802f500967c0bc"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 0,
+      "fixture_seed": 320907,
+      "episode_id": "e1-main-026",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "fd4c7e83da4a3715d07e6d8d3bf40f3f79c7d0ac63fa1802f69239b3b48a45a2",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "2e41a43ec7bee0e0245935bfcd66e443ac8ad8e111fad07796750f82ea1df940"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 5,
+      "fixture_seed": 320912,
+      "episode_id": "e1-main-027",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "28242f00148c6e0fea2396d1f3bb3d474faf5eed9dbeb43eb7d845a2c31d912b",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "8c27f0e378f72222f4b3e5646e995d4b0c4110893515a29738f7921c567027d8"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 2,
+      "fixture_seed": 320909,
+      "episode_id": "e1-main-028",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "391096b07537bfd75a3cc23a82e8922584326e8e04b1169c060d1042ebaa1fac",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "3a22c348e70984fd246446f8ff8d8126d7c4dbb31d9fc0d575ef6a403b005715"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 3,
+      "fixture_seed": 320910,
+      "episode_id": "e1-main-029",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "627309402ae1bc9b529c56dc4f852288a90cc9920738611fa252b60faebdb02b",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "0161784dbc878cd23030c2d93d3ce502abc1aa0523441bdc3a27998fb991d711"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 6,
+      "fixture_seed": 320913,
+      "episode_id": "e1-main-030",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "da2d5d5c4f8ab3fab4cdd708b0885d56148709d7d1b78366aa9ba6939df7f0dc",
+        "shared/notes/job_0117.md": "d5a5f33f7f4110d1fcb5197ad0b9c81ce3b40b49d8b165ca96d5a7e2baba80dd",
+        "shared/notes/job_0121.md": "98f5b31eef7fc1fd40843bf1d4ee934182f8c7357c5d46b49a52946e1f45056d",
+        "shared/notes/job_0126.md": "ee258a6dd24f5ca4246b400d78386987a2d0ba92b67f40f077cbeda11349a216",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "2d53050b708e9cc1ad41e6528939046487f40adc573bd1f70d802f500967c0bc"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R2",
+      "trace": "T0",
+      "route": "P0",
+      "task": "blocked",
+      "block": 1,
+      "fixture_seed": 320908,
+      "episode_id": "e1-main-031",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "03246e4c37031cfc49ffe19c4d1ddde8b13555d32c22707e38f7e6cb97a903a8",
+        "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+        "workspace/data/records.csv": "772f20aafb1a670a9e4f8332f8a928c19b7df208efb392eb7704099e968a4a6a"
+      }
+    },
+    {
+      "experiment": "E1",
+      "phase": "main",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P0",
+      "task": "blocked",
+      "block": 3,
+      "fixture_seed": 320910,
+      "episode_id": "e1-main-032",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "627309402ae1bc9b529c56dc4f852288a90cc9920738611fa252b60faebdb02b",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "0161784dbc878cd23030c2d93d3ce502abc1aa0523441bdc3a27998fb991d711"
+      }
+    }
+  ],
+  "status": "prepared before observations; AMENDMENT_r3 binds this plan",
+  "requested_model": "claude-sonnet-5",
+  "effort": "high",
+  "max_actions": 24,
+  "max_turns": 20,
+  "source_hash": "5853899cc7fc2279b55f4184b741765565782ff910863bb08bb67f71df8ca4c9",
+  "plan_hash": "d511b628a02655bd2c2a71f3980f2c74c910b897f084a5cf3e65c6ccb146bdce"
+}

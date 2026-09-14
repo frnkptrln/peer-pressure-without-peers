@@ -1,0 +1,45 @@
+{
+  "job_script": "/root/work/v3/sprint_package_20260907/open_tier/jobs/open-pilot.py",
+  "transport": "zlib+base64 wrapper; submit this file",
+  "wrapper_sha256": "783b4e4f24e3450707d485728fcaeb8a7cfbdc0722464329cb26180511adb3e5",
+  "wrapper_bytes": 49948,
+  "inner_script": "/root/work/v3/sprint_package_20260907/open_tier/jobs/open-pilot.inner.py",
+  "inner_sha256": "37f63b339694531695ce3c812b7b5fa20f0c7fd311ba485869fe66e3062341b6",
+  "inner_bytes": 134236,
+  "embedded": [
+    "analyze_r3.py",
+    "concern_server.py",
+    "fixtures_r3.py",
+    "report.py",
+    "run_open_r3.py",
+    "run_r3.py",
+    "schema.py",
+    "stats.py",
+    "workspace_server.py"
+  ],
+  "embedded_sha256": {
+    "fixtures_r3.py": "f19212eb0f8ade4de99f9c20ff3fff835739fc9e524063fe71fc206ea1f3b4b2",
+    "workspace_server.py": "f8efb82663acc3cdb72be1dcd96b0e28042d5c6b21715af3e6ac4bd6f0d2308c",
+    "run_r3.py": "2b6f309ec200126e546dea4b46d1aa7b88b5927d6e1108863fde1e178a592819",
+    "analyze_r3.py": "600dc3bd74dc33594f3e4d9aad50e04e24384474cc27b7bdbf2098047af44fbe",
+    "schema.py": "68ad8f663d1795147794dbb92485314ddeb95597237c39d233dcbd1113c75990",
+    "stats.py": "f6168d2b7b8522b9c0a3e25d6521157b10f74860676876ef474fd3e8258c7163",
+    "report.py": "4511f5f771422a705677d64b0ef4da4232a921da9b67117f2cc374108807e5d2",
+    "run_open_r3.py": "1eedda9b0e2beefc871ce72930f8b57bd1fdecdeeb75388ae52c6e25397f57e3",
+    "concern_server.py": "38016d89944e78b690593a513a9e332fd668e26fb48b167170511d8a5ae32ccf"
+  },
+  "args": {
+    "name": "open-pilot",
+    "design": "tier",
+    "seed": 80907,
+    "blocks": 8,
+    "model": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "max_new_tokens": 640,
+    "temperature": 0.7,
+    "extra_traces": [],
+    "thinking": false,
+    "repo": "frnk/peer-traces-open-runs"
+  },
+  "built_at_utc": "2026-09-08T07:10:55Z"
+}

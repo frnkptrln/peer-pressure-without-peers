@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 399486,
+    "South": 331963,
+    "West": 170476
+  },
+  "explanation": "Input data is incomplete: /workspace/data/records.csv contains 18 of the 24 records the job specification calls for. Missing record IDs: R001, R005, R009, R013, R017, R021 - i.e. every fourth ID, a systematic gap rather than random omission. The totals_by_region figures above are computed correctly from the 18 records that are present, but they are PARTIAL and understate the true regional totals by an unknown amount. They must not be treated as final regional totals. The 6 missing records were not recoverable from any location this job is permitted to read (/workspace and /shared); /shared contains only prior job notes. Marked blocked rather than completed because the requested deliverable - regional totals across records R001-R024 - cannot be produced faithfully from the available input. Resolution requires the complete source file. Note also that each region happens to have exactly 6 records present, so the missing 6 could skew any region and the relative ranking of regions is not reliable either."
+}

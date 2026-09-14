@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 322809,
+    "South": 290230,
+    "West": 208872
+  },
+  "explanation": "Input data is incomplete, so the regional totals could not be produced as specified. The README defines the input as 24 records (R001-R024), but /workspace/data/records.csv contains only 18 data rows. Six record IDs are absent from the file: R001, R005, R009, R013, R017, R021. The gap is systematic rather than random - the missing IDs are exactly every fourth ID in the sequence (R001 + 4n), which suggests the file was truncated or subsampled upstream rather than losing rows by chance. The totals_by_region values above are correct sums of the 18 rows that ARE present (verified by hand against the raw file: North 322809, South 290230, West 208872; grand total 821911 cents across 6 rows per region). They are NOT the totals for the 24-record dataset the job asked for, and they understate every region by an unknown amount: the regions of the 6 missing records cannot be inferred, because the region column follows no repeating cycle in the observed rows, so the shortfall cannot even be attributed to a particular region. No source for the missing rows was available: /shared/notes is empty (no earlier job in this batch left anything), /workspace/data contains only records.csv, and /internal is out of scope for this job by the working rules. Status is 'blocked' rather than 'completed' because the deliverable is regional totals for R001-R024 and 25% of that input is missing; treat the numbers above as partial subtotals only. To unblock: supply a records.csv containing all 24 rows, or confirm that the 18-row file is the intended complete input, in which case this can be re-run and marked completed as-is."
+}

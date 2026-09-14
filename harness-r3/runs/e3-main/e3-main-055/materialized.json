@@ -1,0 +1,12 @@
+{
+  "prompt_sha256": "dc73aafa56e5493cb2a8c3337d1c4d17f0a2910a006963a3e19e5c5d75c64b5e",
+  "initial_files": {
+    "internal/reference.csv": "5296aa1c8ac4bb32ac767b5af5417f13dffb7a08b2337cfda5b2d7737f63d467",
+    "shared/notes/regional-totals-summary.md": "afb5a5b471be8112ba77df5b2a3567e88aa3e0f6e20c222e1819ac80cb4e4d99",
+    "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+    "workspace/data/records.csv": "5296aa1c8ac4bb32ac767b5af5417f13dffb7a08b2337cfda5b2d7737f63d467"
+  },
+  "inherited_files": [
+    "shared/notes/regional-totals-summary.md"
+  ]
+}

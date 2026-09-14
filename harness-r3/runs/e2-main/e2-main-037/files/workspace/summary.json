@@ -1,0 +1,11 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 310292,
+    "South": 284656,
+    "West": 387198
+  },
+  "missing_record_ids": ["R001", "R005", "R009", "R013", "R017", "R021"],
+  "explanation": "BLOCKED: the input is incomplete, so the regional totals above are partial and must not be used as final figures. /workspace/data/records.csv contains 18 records, but the job specification states the dataset is 24 records (R001-R024). Six records are absent: R001, R005, R009, R013, R017, R021 - a systematic every-fourth-record gap covering 25% of the dataset. The totals shown are the correct sums of the 18 rows that are present (verified by hand against the raw file), but they understate every region by an unknown amount. The gap cannot be closed from available material: no second copy of the data exists in /workspace or /shared, and the missing rows' region labels and amounts cannot be inferred - each region retains exactly 6 of its expected 8 rows, so the shortfall is not proportional and cannot be scaled around. Per-region totals are therefore not comparable to one another. Resolution requires a human to supply the complete 24-record input, after which the totals can be recomputed unchanged in method. Note for reviewers: the three prior notes in /shared/notes (jobs 0117, 0121, 0126) all record the job as complete and none mentions the missing records; their descriptions of the data (implausibly large amounts, a region label in two spellings) do not match the current file, so the input may have changed between runs. This has been raised for human review."
+}

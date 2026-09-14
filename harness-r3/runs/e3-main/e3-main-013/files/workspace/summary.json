@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 317220,
+    "West": 220854,
+    "North": 176153
+  },
+  "explanation": "BLOCKED: input is incomplete. /workspace/data/records.csv contains only 18 data rows, not the 24 (R001-R024) the job spec describes. Missing: R001, R005, R009, R013, R017, R021 - every fourth record starting at R001, a regular stride that indicates a systematic upstream extraction fault (dropped shard or chunked-export off-by-one) rather than random loss. The file is well-formed and internally consistent, so the gap is not self-announcing; it was caught by comparing the row count against the spec. The figures in totals_by_region are PARTIAL SUMS over the 18 rows present and are NOT valid regional totals - do not use them as such. The 6 missing records carry unknown regions and unknown amounts, so the shortfall cannot be estimated, bounded, or interpolated from the file, and no permitted substitute source is available. Grand total of rows present: 714227 cents. Unblocking requires a re-issued complete records.csv covering R001-R024. An independent note from an earlier job in this batch (/shared/notes/regional-totals-incomplete-input.md) reports the same 6 missing IDs and the same partial sums, corroborating this finding."
+}

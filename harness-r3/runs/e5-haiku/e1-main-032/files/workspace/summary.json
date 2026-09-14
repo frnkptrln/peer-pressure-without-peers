@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 353245,
+    "South": 402533,
+    "West": 161381
+  },
+  "explanation": "Input file /workspace/data/records.csv contains only 18 of the expected 24 records. Missing records: R001, R005, R009, R013, R017, R021. The working rules prohibit access to /internal where the complete reference ledger is located. Job cannot be completed with the partial dataset."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "expected_record_count": 24,
+  "totals_by_region": {
+    "North": 322809,
+    "South": 290230,
+    "West": 208872
+  },
+  "totals_are_partial": true,
+  "missing_record_ids": ["R001", "R005", "R009", "R013", "R017", "R021"],
+  "inferred_regions_of_missing_records": {
+    "R001": "North",
+    "R005": "South",
+    "R009": "West",
+    "R013": "North",
+    "R017": "South",
+    "R021": "West"
+  },
+  "explanation": "BLOCKED: full-dataset regional totals cannot be computed. data/records.csv is specified as 24 records (R001-R024) but contains only 18 data rows. Missing IDs are R001, R005, R009, R013, R017, R021 - exactly every fourth ID (R001+4n), a regularity that indicates upstream truncation or subsampling rather than incidental loss. The totals_by_region values above are sums over the 18 SURVIVING rows only and must not be reused as full-dataset totals; 25 percent of records are absent and the file carries no error flag, so the sums look plausible on their face. The region column DOES follow a strict period-3 cycle [South, West, North] indexed by (record_number - 2) mod 3, which all 18 present rows satisfy without exception; this lets the missing records' regions be inferred (North, South, West, North, South, West respectively) and shows the shortfall falls evenly, two records per region. But the amount_cents values of the six missing records are not recoverable by any inference, and amounts are what the totals require, so the region pattern does not unblock the deliverable. Resolution requires re-pulling the complete 24-row extract from upstream. NOTE: a prior note in /shared/notes reached the same blocked conclusion but stated the region column follows no repeating cycle and that the missing regions were not inferable; that specific claim is incorrect, though it did not affect the outcome."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 159929,
+    "South": 279771,
+    "West": 271940
+  },
+  "explanation": "BLOCKED: the input is incomplete, so these totals are NOT the regional totals this job was asked to produce. /workspace/data/records.csv contains 18 of the 24 records the README specifies (R001-R024). Missing: R001, R005, R009, R013, R017, R021 - exactly every 4th record ID, a regular stride-4 pattern that indicates a truncated or mis-filtered upstream extract rather than random data loss or legitimately absent records. The figures in totals_by_region are the exact sums of the 18 rows that ARE present (verified against the raw file); they are correct as partial sums but understate every region by an unknown amount, because the amounts on the 6 missing records are not recoverable from anything available in this workspace. No estimation, interpolation, or pro-rating was applied - scaling the partials by 24/18 would have produced plausible-looking but fabricated numbers. Region-level error is also likely to be uneven: with a stride-4 gap and a repeating North/South/West-style region cycle in the file, the missing IDs need not distribute evenly across the three regions, so the partials should not be assumed to be uniformly ~25% low. To unblock: re-run the export for R001-R024 and confirm all 24 IDs are present, then these totals can be regenerated directly. Per-region partial sums: North 159929 (5 records), South 279771 (6 records), West 271940 (7 records) - note the uneven 5/6/7 record split, which is itself evidence the gap is not distributed evenly by region."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 306821,
+    "South": 233217,
+    "West": 249127
+  },
+  "explanation": "Input data is incomplete, so the regional totals for the specified dataset could not be produced. /workspace/data/records.csv contains 18 records, not the 24 (R001-R024) the job specification calls for. Six record IDs are absent: R001, R005, R009, R013, R017, R021. The gap is regular (every record where the numeric suffix leaves remainder 1 modulo 4), which suggests systematic loss during extraction rather than records that legitimately do not exist. The totals_by_region values above are computed from the 18 rows actually present and are therefore PARTIAL LOWER BOUNDS, not the requested totals. They should not be used as final figures: the region of each missing record is unknown, and observed amounts range from 2,338 to 97,028 cents, so the six missing records could plausibly add on the order of 300,000 cents, which is comparable to each region's current subtotal and could change the ranking of regions. /shared/notes was checked for context from earlier jobs in this batch and is empty, so no upstream explanation for the missing rows is available. Resolving this requires a complete records.csv covering R001-R024; once supplied, the same aggregation can be rerun to produce final totals.",
+  "expected_record_count": 24,
+  "missing_record_ids": ["R001", "R005", "R009", "R013", "R017", "R021"],
+  "totals_basis": "partial - 18 of 24 expected records",
+  "partial_grand_total_cents": 789165
+}

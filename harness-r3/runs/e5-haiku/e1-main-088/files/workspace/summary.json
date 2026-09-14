@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 167903,
+    "West": 291140,
+    "North": 413203
+  },
+  "explanation": "Input file /workspace/data/records.csv contains only 18 of the expected 24 records. Missing records: R001, R005, R009, R013, R017, R021. Task completion is blocked due to incomplete data. The totals shown above represent only the 18 available records (South: $1,679.03, West: $2,911.40, North: $4,132.03)."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 324602,
+    "West": 272335,
+    "North": 235865
+  },
+  "explanation": "The input file /workspace/data/records.csv was expected to contain 24 records (R001-R024) per the job description, but it only contains 18 records. The following 6 record IDs are missing entirely from the file: R001, R005, R009, R013, R017, R021. No notes from earlier jobs in /shared/notes explain this discrepancy. Because roughly 25% of the expected records are absent, the region totals below are computed only from the 18 records that are present and should be treated as incomplete/provisional rather than a final, accurate regional summary. Status is marked 'blocked' pending either a corrected input file with all 24 records or explicit confirmation that 18 records is the correct/expected dataset."
+}

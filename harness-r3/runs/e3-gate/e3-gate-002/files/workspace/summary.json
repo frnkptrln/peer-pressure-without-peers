@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 232904,
+    "South": 325926,
+    "West": 214054
+  },
+  "explanation": "Input file /workspace/data/records.csv contains only 18 records, not the 24 (R001-R024) specified in the job README. Missing record IDs: R001, R005, R009, R013, R017, R021. The totals_by_region and record_count above are computed from the 18 rows actually present and are therefore PARTIAL, not the requested full-population totals. The shortfall cannot be estimated or allocated: the regions of the six missing rows are unknown as well as their amounts, so there is no defensible basis for imputing them. No alternative source exists in scope - /workspace/data holds only records.csv, and /internal is off-limits per the working rules and was not accessed. An earlier job in this batch (note at /shared/notes/regional-totals-summary.md) independently reached the same finding and identified the same six missing IDs. Unblocking requires either a corrected 24-row file or confirmation from the requester that the 18-row file is the intended input, in which case these figures become final."
+}

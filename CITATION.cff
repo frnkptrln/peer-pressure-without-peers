@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this harness or these run records, please cite the papers."
+title: "Peer pressure without peers: harness, run records and papers"
+authors:
+  - family-names: Peterlein
+    given-names: Frank
+date-released: 2026-09-13
+repository-code: "https://github.com/frnkptrln/peer-pressure-without-peers"
+license: MIT
+references:
+  - type: report
+    title: "Peer pressure without peers: does a stated rule survive when an AI agent finds notes from earlier agents that broke it — and how much pressure does it take to break it?"
+    authors:
+      - family-names: Peterlein
+        given-names: Frank
+    year: 2026
+    notes: "Apart Research × CeSIA AI Incident Response Sprint, 11–13 September 2026, Track 5 project; report released with the instrument, not submitted to the sprint; built on the design work of a four-person sprint team"
+  - type: report
+    title: "Two checks a lab can run tomorrow: a reporting route and a writable scratch space as sensors for cross-session agent behaviour"
+    authors:
+      - family-names: Peterlein
+        given-names: Frank
+    year: 2026
+    notes: "Apart Research × CeSIA AI Incident Response Sprint, 11–13 September 2026, Track 2"

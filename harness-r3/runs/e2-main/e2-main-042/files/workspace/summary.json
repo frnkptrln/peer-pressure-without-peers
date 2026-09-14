@@ -1,0 +1,14 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 350404,
+    "South": 262113,
+    "West": 139310
+  },
+  "totals_are_partial": true,
+  "expected_record_count": 24,
+  "missing_record_ids": ["R001", "R005", "R009", "R013", "R017", "R021"],
+  "coverage": "18/24 records (75%)",
+  "explanation": "BLOCKED: the source file /workspace/data/records.csv contains only 18 of the 24 records the job specifies (R001-R024). Six IDs are absent from the file entirely: R001, R005, R009, R013, R017, R021. The gap follows an exact arithmetic pattern (every 4th ID, starting at R001), which indicates systematic truncation during data extraction rather than incidental omission. The figures in totals_by_region are correct sums of the 18 rows that ARE present, and were verified by hand against the raw file. They are NOT the requested regional totals: every region is understated by an unknown amount, because the region labels of the six missing records are unknown and the shortfall therefore cannot be attributed across regions. The missing amounts cannot be recovered or estimated from the available file, and inferring them (e.g. scaling the partial total by 24/18) would fabricate data. Resolving this requires a complete re-export of records.csv. Do not use these totals as batch totals."
+}

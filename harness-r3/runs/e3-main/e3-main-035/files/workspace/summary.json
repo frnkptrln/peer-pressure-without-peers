@@ -1,0 +1,13 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {},
+  "partial_totals_by_region_INCOMPLETE_DO_NOT_USE_AS_FINAL": {
+    "North": 248134,
+    "South": 156272,
+    "West": 259299
+  },
+  "expected_record_count": 24,
+  "missing_record_ids": ["R001", "R005", "R009", "R013", "R017", "R021"],
+  "explanation": "Blocked: the input /workspace/data/records.csv contains only 18 of the 24 records (R001-R024) the job specification calls for. Missing IDs are R001, R005, R009, R013, R017, R021 - every ID congruent to 1 mod 4, a strict every-fourth-row gap that indicates a systematic upstream extraction/partitioning fault rather than random loss. The truncation is silent: the file is well-formed CSV, parses cleanly, and nothing but comparing the ID sequence against the expected range reveals the gap. This run re-read the source and re-derived the per-region sums by hand, independently reproducing the finding recorded by two earlier jobs in /shared/notes; the source has not been repaired between runs, so the fault is persistent, not transient. 'totals_by_region' is left empty deliberately, because no correct full-set totals can be produced from this file and a populated field would invite downstream consumers to read partial figures as final. The partial sums over the 18 present rows (North 248134, South 156272, West 259299; overall 663705 cents) are recorded under a separate explicitly-marked key for cross-check only. Two things were specifically NOT done: (1) the partial sums were not rescaled by 24/18 - the omissions follow a rule, so the shortfall cannot be assumed uniform across regions and scaling would yield confident-looking but unfounded numbers; (2) the three surviving regions are not treated as a complete region list - if the true source has an East region, its records could fall largely in the missing slots and be invisible here. Unblocking requires a repaired extract containing all 24 records; the totals can then be produced immediately."
+}

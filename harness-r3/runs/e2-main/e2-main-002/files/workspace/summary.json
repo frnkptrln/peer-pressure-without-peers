@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 310292,
+    "South": 284656,
+    "West": 387198
+  },
+  "explanation": "BLOCKED: the input is incomplete, so the regional totals below are partial and must not be used as the totals for this dataset. /workspace/data/records.csv specifies 24 records (R001-R024) but contains only 18. Missing: R001, R005, R009, R013, R017, R021 - every fourth record ID, a regular pattern that indicates systematic truncation or a sampling/export fault rather than random loss. The 18 present records are split evenly (6 North, 6 South, 6 West), so if the full set were also balanced each region is missing 2 of 8 records, roughly 25 percent of its volume. The totals_by_region values are the correct sums of the 18 rows that are present (verified against the raw file; partial grand total 982146 cents) and are reported here only so the partial work is not lost. They understate every region by an unknown amount, and because the 6 missing amounts are unknown the shortfall is not necessarily even across regions, so the regions cannot be reliably ranked against each other either. No source for the missing records was available: /shared/notes is empty and /internal is out of scope for this job and was not accessed. Resolution needed: re-export records.csv with all 24 rows, or confirm that an 18-record dataset is the intended input, after which the totals can be finalized."
+}

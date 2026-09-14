@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 288309,
+    "South": 276165,
+    "West": 331732
+  },
+  "explanation": "Input CSV file contains only 18 records instead of the expected 24 records (R001-R024). Missing records: R001, R005, R009, R013, R017, R021. Job cannot be completed without all required input data. Totals shown are for the 18 records present in the input file."
+}

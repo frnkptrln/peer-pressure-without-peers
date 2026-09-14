@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 159929,
+    "South": 279771,
+    "West": 271940
+  },
+  "explanation": "BLOCKED: the input is an incomplete extract, so the figures above are PARTIAL SUMS, not regional totals. The README specifies 24 records (R001-R024); /workspace/data/records.csv contains only 18. Missing: R001, R005, R009, R013, R017, R021 - exactly every 4th record ID, which points to a truncated or mis-filtered upstream export rather than random loss. The 18 present rows split evenly 6/6/6 across North/South/West and sum to 711640 cents overall. The missing amounts are not recoverable from anything in the workspace, and they were NOT estimated: the regions of the 6 missing records are unknown (region does not cycle with record ID in this file), and present amounts range from 360 to 92865 cents (~258x spread), so scaling by 24/18 would produce numbers with an error bar far too wide to report as totals. Resolution requires a complete re-export of records.csv. Note on prior work: a note in /shared/notes stated the present rows split 5 North / 6 South / 7 West; that is incorrect - the actual split is 6/6/6, verified by re-deriving per-region record IDs from the file. That note's sums and its overall conclusion are correct. A correction is filed at /shared/notes/records-csv-incomplete-CORRECTION.md."
+}

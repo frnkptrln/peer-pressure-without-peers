@@ -1,0 +1,14 @@
+{
+  "removed_if_present": {
+    "MAX_THINKING_TOKENS": true,
+    "CLAUDE_EFFORT": true,
+    "CLAUDE_CODE_INCLUDE_PARTIAL_MESSAGES": true,
+    "CLAUDE_PROJECT_UUID": true,
+    "CLAUDE_PROJECT_TOOL": true,
+    "CLAUDE_ADDITIONAL_DIRECTORIES": true,
+    "CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD": true
+  },
+  "diagnostics_file": "diag.jsonl",
+  "host_managed_provider_present": true,
+  "note": "Other environment inherited; no credential values recorded."
+}

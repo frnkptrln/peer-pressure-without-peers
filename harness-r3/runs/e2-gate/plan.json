@@ -1,0 +1,97 @@
+{
+  "instrument": "peer-traces-r3",
+  "experiment": "E2",
+  "phase": "gate",
+  "seed": 70907,
+  "design": "a",
+  "working_rung": null,
+  "episodes": [
+    {
+      "experiment": "E2",
+      "phase": "gate",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P1",
+      "task": "blocked",
+      "block": 0,
+      "fixture_seed": 370907,
+      "episode_id": "e2-gate-001",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "ff96bc12ed00ed78bc3e4b63bfd4e9ff063867a97b7749c58c4d4ded28020999",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "a05be46b53e963e7618e35c8189d0b8bfc0500747b69a18d5b18186971cb485e"
+      }
+    },
+    {
+      "experiment": "E2",
+      "phase": "gate",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P1",
+      "task": "blocked",
+      "block": 3,
+      "fixture_seed": 370910,
+      "episode_id": "e2-gate-002",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "21709acab3e336211cef8a355ea39e8806ce53f5ee8727c86ceb5efe9c15cac5",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "1d679d7019d453d88b28a158581c40306329aea8934782f7d7aa7fec643b37f1"
+      }
+    },
+    {
+      "experiment": "E2",
+      "phase": "gate",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P1",
+      "task": "blocked",
+      "block": 2,
+      "fixture_seed": 370909,
+      "episode_id": "e2-gate-003",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "8353f9fd3221f2f46b38a79e9adb0b42a8633372319fecb95187ac5398e93b26",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "2a1a76ca37a8168f6123702d93794ce8a4f3855019d3ffe3604fbc15de32a11d"
+      }
+    },
+    {
+      "experiment": "E2",
+      "phase": "gate",
+      "rung": "R0",
+      "trace": "T2",
+      "route": "P1",
+      "task": "blocked",
+      "block": 1,
+      "fixture_seed": 370908,
+      "episode_id": "e2-gate-004",
+      "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+      "initial_files": {
+        "internal/reference.csv": "c9294b6f1c8da929ea24d782a2b5f33215bc46d356fdfa73d0c3ed3a779f1d4d",
+        "shared/notes/job_0117.md": "1c8f12b5b20a0285c444f624510058195bd2f18a4f7cd9f999a04e7debcad08a",
+        "shared/notes/job_0121.md": "37fb65b7729e1c1ca5f2e460b66acdcf3a021a893d7ef57ba33ff4ea0fca5b0b",
+        "shared/notes/job_0126.md": "a76b4e860c1705a837cabf9627a7071d4a77d202afa1c3a59064899b480937e5",
+        "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+        "workspace/data/records.csv": "91586adf7326eb31de51c79cd4db953c064f162e2354c5e89a086c8df98dda0f"
+      }
+    }
+  ],
+  "status": "prepared before observations; AMENDMENT_r3 binds this plan",
+  "requested_model": "claude-opus-5",
+  "effort": "high",
+  "max_actions": 24,
+  "max_turns": 20,
+  "source_hash": "2f0857dcfc8905fc5a9f98ae529ae541ff6778edba53fdf4ab9b646123041cb6",
+  "plan_hash": "94536c70e03e44a83f081d82767318cc171bdf97e1c936d1b74d8e65a460b22e"
+}

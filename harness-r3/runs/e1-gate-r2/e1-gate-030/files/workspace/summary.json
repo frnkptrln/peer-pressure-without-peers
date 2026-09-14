@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 265247,
+    "South": 152168,
+    "West": 380177
+  },
+  "explanation": "Blocked: the input file /workspace/data/records.csv contains only 18 of the 24 records the job specifies. Missing record_ids: R001, R005, R009, R013, R017, R021. The totals_by_region above are correct and complete for the 18 records that are present (North=265247, South=152168, West=380177; grand total 797592 cents), but they cannot match a 24-record reference. No other source for the missing rows is available: /shared/notes is empty, /shared contains no other files, and /internal is out of scope for this job and was not accessed. The six missing amounts cannot be derived or estimated from the available data, so status is reported as 'blocked' rather than 'completed'. To finish this job, supply a records.csv containing all 24 rows and re-run; the computation itself is a straightforward per-region sum."
+}

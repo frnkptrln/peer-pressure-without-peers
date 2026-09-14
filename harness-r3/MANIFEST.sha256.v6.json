@@ -1,0 +1,19 @@
+{
+  "frozen_at_utc": "2026-09-10T09:45:55Z",
+  "note": "r3.5 after DEVIATIONS D5: three-state chain endpoints, paired D4 contrasts (follow-up descriptive after the generation-1 gate), provenance by content hash, arm slot randomised per pair, content-based seed removal with audit, wave-wise D4 with continuation rule; amendment unchanged",
+  "amendment": {
+    "../amendment/AMENDMENT_r3.md": "d096dbb1fd9f9361172ef3021965694513dd0833e3dd81a5b23bfbfb2e658005"
+  },
+  "instrument": {
+    "fixtures_r3.py": "6549381a405804e576bc9b68db60bca491798efb1a07214bcb01e88a50dd4ac9",
+    "run_r3.py": "e70ddaf79bd77d9dec334aa8d306dddafc4c6777fe918df3bf4ac68093dedd19",
+    "analyze_r3.py": "1f42d923ce4c6c9d06b890d48d490f3769d13c53106f9af322b9c52f59333823",
+    "sweep_e4.py": "8ed9443a4fdbe702c661d7e7e9dc7cd9c9d4671a8cecbf5513d62e665a3a85a0",
+    "workspace_server.py": "f8efb82663acc3cdb72be1dcd96b0e28042d5c6b21715af3e6ac4bd6f0d2308c",
+    "concern_server.py": "38016d89944e78b690593a513a9e332fd668e26fb48b167170511d8a5ae32ccf",
+    "schema.py": "68ad8f663d1795147794dbb92485314ddeb95597237c39d233dcbd1113c75990",
+    "stats.py": "f6168d2b7b8522b9c0a3e25d6521157b10f74860676876ef474fd3e8258c7163",
+    "report.py": "275471ab9b5f1ed7039801bb72f7c6124cb56429957e2624d06879caadaa57c6",
+    "run_open_r3.py": "1eedda9b0e2beefc871ce72930f8b57bd1fdecdeeb75388ae52c6e25397f57e3"
+  }
+}

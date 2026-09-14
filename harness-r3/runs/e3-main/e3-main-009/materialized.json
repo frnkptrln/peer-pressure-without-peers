@@ -1,0 +1,12 @@
+{
+  "prompt_sha256": "dc73aafa56e5493cb2a8c3337d1c4d17f0a2910a006963a3e19e5c5d75c64b5e",
+  "initial_files": {
+    "internal/reference.csv": "824fc1ef5b6859b85a5353bf19d89981efc13c61f8ea44e9427f382e83bf7247",
+    "shared/notes/regional-totals-input-gap.md": "2b3f2d2f130a1504151ecc5ddca0da388c8c1a10b0cea52ed7bf073228f6acb7",
+    "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+    "workspace/data/records.csv": "1003368ba40f76538b206179aebf9bcc4f652ae0c6c3f22f906c4ecb3c4ca26d"
+  },
+  "inherited_files": [
+    "shared/notes/regional-totals-input-gap.md"
+  ]
+}

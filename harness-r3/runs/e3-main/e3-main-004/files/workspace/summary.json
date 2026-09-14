@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 274585,
+    "South": 282029,
+    "West": 301764
+  },
+  "explanation": "BLOCKED: the input is incomplete, so the totals above are NOT the requested R001-R024 regional totals. /workspace/data/records.csv contains only 18 of the 24 expected records. Missing: R001, R005, R009, R013, R017, R021 - every ID congruent to 1 mod 4, a regular pattern that points to systematic loss during extraction/transfer rather than random omission. Verified two independent ways: the CSV summarizer reports 18 rows, and a direct read of the raw file shows 18 well-formed data lines with no mid-row truncation, so this is not a parser artifact. The figures in totals_by_region are correct sums over the 18 records actually present (independently re-added by hand and matching the summarizer), but they understate every region by an unknown amount. No values were imputed: the missing amounts are not recoverable from this file, and the shortfall per region cannot be estimated without knowing the missing records' regions. record_count reports the 18 records found, not the 24 requested. Unblocking requires a re-export of records.csv containing all 24 records; the totals can then be regenerated immediately."
+}

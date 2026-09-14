@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 274585,
+    "South": 282029,
+    "West": 301764
+  },
+  "explanation": "BLOCKED: the input is incomplete, so the totals below are PARTIAL and must not be used as the R001-R024 regional totals. /workspace/data/records.csv contains only 18 of the expected 24 records. Missing: R001, R005, R009, R013, R017, R021 - every ID congruent to 1 mod 4, a regular pattern that points to systematic loss during extraction/transfer rather than random omission or intentionally dropped rows. Verified two ways: the CSV summarizer reports 18 rows, and a direct read of the raw file shows 18 well-formed data lines (not a mid-row truncation), so the loss is upstream of this job and cannot be repaired from the data available here. The values in totals_by_region are correct sums over the 18 records that are present, but they understate every region: the 6 present records per region imply 2 missing records per region against an expected 8. record_count is 18, not 24, for the same reason. No values were imputed or estimated. Unblocking requires a re-export of records.csv containing all 24 records; this job should then be re-run unchanged."
+}

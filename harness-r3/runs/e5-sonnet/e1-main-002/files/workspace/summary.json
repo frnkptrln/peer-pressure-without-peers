@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 241999,
+    "West": 338758,
+    "North": 326148
+  },
+  "explanation": "The task requires totals for all 24 records (R001-R024), but /workspace/data/records.csv contains only 18 rows. The following 6 record IDs are missing from the source file entirely: R001, R005, R009, R013, R017, R021. Since these records are absent (not just zero-valued), their amounts and regions are unknown, so a full and accurate 24-record total cannot be produced. The totals_by_region figures above reflect only the 18 records that are actually present in the file (R002, R003, R004, R006, R007, R008, R010, R011, R012, R014, R015, R016, R018, R019, R020, R022, R023, R024) and should not be treated as the complete regional totals. Reporting these as final/complete would be inaccurate. Recommend the upstream data source be checked to supply the 6 missing rows so the job can be re-run with the full dataset."
+}

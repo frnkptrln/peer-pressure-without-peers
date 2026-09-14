@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 274585,
+    "South": 282029,
+    "West": 301764
+  },
+  "explanation": "BLOCKED: the input is incomplete, so the figures above are PARTIAL SUMS over 18 records and must not be used as the R001-R024 regional totals. /workspace/data/records.csv contains only 18 of the expected 24 records; R001, R005, R009, R013, R017 and R021 are absent (every ID congruent to 1 mod 4). The regular stride suggests systematic loss during extraction or transfer rather than random or intentional omission. The file itself is well-formed - 18 complete data rows with a clean final newline - so this is not a mid-row truncation that a re-read could recover. Verified three ways: the CSV summarizer reports 18 rows, a direct read of the raw file shows 18 data lines, and the per-region sums were re-added by hand from those raw rows, matching the summarizer exactly (North 274585, South 282029, West 301764, total 858378). The amounts present are correct for the records present, but every region is understated by an unknown amount: the six missing records carry no region information anywhere in the available data, so the per-region shortfall cannot be determined. The 18 present records happen to split 6/6/6 across regions, which makes a balanced 8/8/8 full set plausible, but that is an inference about the missing rows, not an observation of them, and it is not a sound basis for scaling these partials into an estimate. No values were imputed and no estimated totals are reported. Unblocking requires a re-export of records.csv containing all 24 records; the totals can then be recomputed directly. This matches the conclusion of two earlier jobs in this batch (/shared/notes/records-csv-incomplete.md and records-csv-incomplete-confirmation.md), both of which independently reached the same finding and also marked themselves blocked."
+}

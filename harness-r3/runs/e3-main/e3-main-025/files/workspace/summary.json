@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 322809,
+    "South": 290230,
+    "West": 208872
+  },
+  "explanation": "BLOCKED: input is incomplete. /workspace/data/records.csv is specified as 24 records (R001-R024) but contains only 18 data rows. Missing: R001, R005, R009, R013, R017, R021 - exactly every fourth ID (R001+4n), a regularity indicating upstream truncation/subsampling rather than incidental loss. record_count above is the actual rows present (18), not the specified 24. The totals_by_region figures are sums over the 18 SURVIVING rows only and are therefore PARTIAL - they are per-region floors, not full-dataset totals, and must not be reported as such. The region column does follow a strict period-3 cycle [South, West, North] at (record_number - 2) mod 3, fitting all 18 surviving rows with no exceptions, so the missing records' region labels are recoverable: R001 North, R005 South, R009 West, R013 North, R017 South, R021 West - exactly two missing per region. That makes the shortfall even across regions, but it does NOT make the partials usable for ratios, shares, or rankings: equal missing counts do not imply equal missing value. Surviving amounts span 4,215 to 92,752 cents (~22x), so two unknown records could be worth ~8k in one region and ~185k in another. North leads South by only 32,579 in the partials, a margin smaller than the plausible range of two unknown amounts, so even the North/South ordering is not established. Region labels are inferable; amounts are not, and amounts are what totals require. Resolution: re-pull the full 24-row extract, then recompute. Verified independently from the raw CSV for this job, not copied from /shared/notes."
+}

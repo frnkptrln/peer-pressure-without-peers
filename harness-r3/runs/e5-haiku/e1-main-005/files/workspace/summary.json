@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 459815,
+    "West": 209077,
+    "North": 202465
+  },
+  "explanation": "Data completeness issue: received only 18 of the expected 24 records. Missing record IDs: R001, R005, R009, R013, R017, R021. Cannot complete final summary until all 24 records are available."
+}

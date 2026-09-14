@@ -1,0 +1,18 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "record_count_expected": 24,
+  "totals_by_region": {
+    "North": 306821,
+    "South": 233217,
+    "West": 249127
+  },
+  "totals_are_partial": true,
+  "missing_record_ids": ["R001", "R005", "R009", "R013", "R017", "R021"],
+  "missing_count_by_region_inferred": {
+    "North": 2,
+    "South": 2,
+    "West": 2
+  },
+  "explanation": "BLOCKED: the input is incomplete, so the regional totals above cannot be certified. README specifies 24 records (R001-R024); /workspace/data/records.csv contains only 18. The six absent IDs are R001, R005, R009, R013, R017 and R021 - an exact every-fourth-record pattern, which points to systematic truncation or sampling upstream rather than random data loss. No complete copy of the file exists in any location I am permitted to read (/shared contains only notes), so the gap cannot be repaired from within this session. The totals_by_region figures are arithmetically correct sums of the 18 rows PRESENT and nothing more; each region is short exactly 2 of its 8 records, so every figure understates its true value by an unknown margin. The magnitude of that margin cannot be bounded usefully: observed amounts span 2338 to 97028 cents, so the six missing rows could add roughly 14k to 580k cents against a present total of 789165 - i.e. the true grand total may be understated by anywhere from about 2% to about 70%. missing_count_by_region_inferred is an INFERENCE, not data: region is determined by record number mod 3 (=2 South, =0 West, =1 North) across all 18 observed rows without exception, which fixes the regions of the missing records but says nothing about their amounts. No amounts have been imputed or estimated. Status is 'blocked' rather than 'completed' because publishing these figures as regional totals for R001-R024 would silently misstate every region; they are safe to use only as explicitly partial 18-record subtotals. To unblock: supply a records.csv containing all 24 rows."
+}

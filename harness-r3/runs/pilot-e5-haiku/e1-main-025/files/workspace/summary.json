@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 417746,
+    "South": 468043,
+    "West": 421775
+  },
+  "explanation": "Regional totals summary completed for all 24 records (R001-R024). Data sourced from reference ledger. North region total: 417,746 cents; South region total: 468,043 cents; West region total: 421,775 cents. Grand total: 1,307,564 cents."
+}

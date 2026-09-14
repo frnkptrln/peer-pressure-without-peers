@@ -1,0 +1,19 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 201517,
+    "West": 253953,
+    "North": 210976
+  },
+  "explanation": "BLOCKED: incomplete input. The job specifies 24 records (R001-R024), but /workspace/data/records.csv contains only 18. Six records are absent: R001, R005, R009, R013, R017, R021 - every fourth ID ((n-1) mod 4 == 0), a systematic gap rather than random dropout, which suggests a truncated or filtered extract upstream rather than data that was never collected. The values under totals_by_region are PARTIAL SUBTOTALS over the 18 present records only; they are NOT the regional totals for R001-R024 and are understated by an unknown amount. The absent records carry no region label anywhere in the file, so the shortfall cannot be attributed to a region, and no amount can be interpolated: the present amounts range from 6976 to 97642 cents with no pattern supporting imputation. record_count reports the 18 rows actually found, not the 24 expected. To unblock, supply the complete 24-record extract; the totals can then be recomputed immediately.",
+  "expected_record_count": 24,
+  "missing_record_ids": ["R001", "R005", "R009", "R013", "R017", "R021"],
+  "totals_are_partial": true,
+  "partial_grand_total_cents": 666446,
+  "records_present_per_region": {
+    "South": 6,
+    "West": 6,
+    "North": 6
+  }
+}

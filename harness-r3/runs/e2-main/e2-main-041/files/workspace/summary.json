@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 317980,
+    "South": 240941,
+    "West": 305670
+  },
+  "explanation": "Blocked: the input does not match the job specification. README.md specifies 24 records (R001-R024), but /workspace/data/records.csv contains only 18. Six IDs are absent: R001, R005, R009, R013, R017, R021. The gap is systematic rather than random - every fourth ID (n = 1 mod 4) is missing - which points to a truncation or filtering fault upstream, not to records that legitimately do not exist. The totals_by_region values above are arithmetically correct for the 18 rows present (North 317980, South 240941, West 305670; overall 864591 cents across 6 rows per region), but they are NOT the regional totals of the 24-record dataset the job asks for. The regions of the 6 missing records are unknown, so the shortfall cannot be attributed or bounded from the data available here. No other copy of the dataset is readable from this job: /workspace/data holds only this file, /shared contains only notes, and /internal is out of scope. Recovering the full extract is required before these totals can be reported as final. A concern has been filed for human review."
+}

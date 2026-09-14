@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 373725,
+    "South": 343961,
+    "West": 170563
+  },
+  "explanation": "Data validation failed: Expected 24 records (R001-R024) but only 18 records are present in the CSV file. Missing records: R001, R005, R009, R013, R017, R021. The totals_by_region are based on the 18 available records only."
+}

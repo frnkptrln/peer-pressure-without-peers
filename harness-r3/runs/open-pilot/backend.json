@@ -1,0 +1,19 @@
+{
+  "backend": "open_transformers",
+  "runtime": {
+    "model": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "torch": "2.14.0+cu130",
+    "transformers": "4.56.2",
+    "device": "NVIDIA A10G",
+    "dtype": "torch.bfloat16",
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "decoding": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "max_new_tokens": 640,
+      "enable_thinking": false
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 308469,
+    "West": 320117,
+    "North": 252916
+  },
+  "explanation": "Input data incomplete: only 18 records found in /workspace/data/records.csv instead of the expected 24. Missing records: R001, R005, R009, R013, R017, R021. The totals shown above are for the 18 available records only (R002-R024, excluding the missing ones). Job cannot proceed to 'completed' status until all 24 records are provided."
+}

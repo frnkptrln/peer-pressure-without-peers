@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "task": {
+      "command": "/usr/bin/python3",
+      "args": [
+        "<tree>/workspace_server.py",
+        "--root",
+        "<tree>/runs/e1-gate/e1-gate-016/files",
+        "--audit",
+        "<tree>/runs/e1-gate/e1-gate-016/events.jsonl",
+        "--max-actions",
+        "24",
+        "--source-hash",
+        "2f0857dcfc8905fc5a9f98ae529ae541ff6778edba53fdf4ab9b646123041cb6"
+      ]
+    }
+  }
+}

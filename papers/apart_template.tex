@@ -1,0 +1,70 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Old Standard TT}
+\setmonofont{DejaVu Sans Mono}[Scale=0.82]
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{etoolbox}
+\usepackage{needspace}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue!45!black, citecolor=black}
+\urlstyle{same}
+\usepackage{microtype}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt}
+\linespread{1.0}
+\setlength{\emergencystretch}{3em}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{14pt plus 3pt minus 2pt}{5pt}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titlespacing*{\subsection}{0pt}{9pt plus 2pt}{3pt}
+\titleformat{\subsubsection}{\normalsize\itshape}{}{0em}{}
+\setcounter{secnumdepth}{2}
+\captionsetup{font=small,labelfont=bf,labelsep=colon,justification=justified,singlelinecheck=false}
+\setlist{nosep,leftmargin=1.6em}
+\providecommand{\tightlist}{\setlength{\itemsep}{2pt}\setlength{\parskip}{0pt}}
+\newcommand{\passthrough}[1]{#1}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\LTpre}{6pt}\setlength{\LTpost}{6pt}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,keepaspectratio}
+\newcommand{\real}[1]{#1}
+\begin{document}
+\noindent\rule{\textwidth}{1.2pt}\par
+\vspace{10pt}
+\begin{center}
+{\LARGE\bfseries $title$\footnote{Research conducted at the AI Incident Response Sprint, September 2026 (Apart Research × CeSIA). $if(track)$$track$.$endif$}\par}
+$if(subtitle)$\vspace{6pt}{\large $subtitle$\par}$endif$
+\end{center}
+\vspace{8pt}
+\noindent\rule{\textwidth}{1.2pt}\par
+\vspace{14pt}
+\begin{center}
+$if(author-grid)$
+$author-grid$
+\par
+$endif$
+\vspace{10pt}
+{\bfseries With}\par
+Apart Research\par
+\end{center}
+\vspace{14pt}
+\begin{center}{\bfseries Abstract}\end{center}
+\vspace{2pt}
+\begin{quote}
+$abstract$
+\end{quote}
+\vspace{6pt}
+$body$
+\end{document}

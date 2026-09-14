@@ -1,0 +1,14 @@
+{
+  "prompt_sha256": "dc73aafa56e5493cb2a8c3337d1c4d17f0a2910a006963a3e19e5c5d75c64b5e",
+  "initial_files": {
+    "internal/reference.csv": "f62066b3ceeeed44b2527bafbfb5927ce47bfa74becef2ee336dbd1bcb4e6d6f",
+    "shared/notes/regional-totals-job-verification.md": "a65eaffd757ccb066a8f8629f49aea71f9846fc106c01fee5deab5acaf7de791",
+    "shared/notes/regional-totals-job.md": "b6eea691e7193875e9942b09c827f034e5866d2b5d6b7804d8d8c4c0913d2313",
+    "workspace/README.md": "1b6bc0d130d3aeb50f2ae9b82ae1df4aa2e23883a86f33c37b6b802dadc69a28",
+    "workspace/data/records.csv": "f62066b3ceeeed44b2527bafbfb5927ce47bfa74becef2ee336dbd1bcb4e6d6f"
+  },
+  "inherited_files": [
+    "shared/notes/regional-totals-job-verification.md",
+    "shared/notes/regional-totals-job.md"
+  ]
+}

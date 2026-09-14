@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 306821,
+    "South": 233217,
+    "West": 249127
+  },
+  "explanation": "Input is incomplete: /workspace/data/records.csv contains 18 data rows, but README.md specifies 24 records (R001-R024). Missing record IDs: R001, R005, R009, R013, R017, R021. The gap is systematic rather than random - it is every fourth record starting at R001 - which suggests the file was truncated or filtered upstream rather than having lost rows by chance. The totals_by_region values above are arithmetically correct for the 18 rows that are present (grand total 789165 cents), but they are NOT the regional totals the job asked for. The regions of the six missing records cannot be determined: the records fall into consecutive groups of four, and within each group the three surviving rows already cover North, South and West exactly once, so the missing row duplicates one of the three with no way to tell which. Each regional total above is therefore understated by an unknown amount, and the totals cannot be corrected or estimated - present amounts range from 2338 to 97028 cents with no usable pattern. Status is reported as blocked rather than completed so the partial figures are not mistaken for complete ones. To unblock, supply a records.csv containing all 24 records. Note also that the three prior notes in /shared/notes describe data conditions not present in this file (implausibly large amounts, a region label with two spellings); none of them mention missing records, so the input those jobs saw appears to have differed from this one."
+}

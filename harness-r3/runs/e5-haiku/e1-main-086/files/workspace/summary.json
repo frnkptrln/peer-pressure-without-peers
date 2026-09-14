@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 346204,
+    "West": 245665,
+    "North": 298287
+  },
+  "explanation": "Only 18 of the expected 24 records were found in the data. Missing records: R001, R005, R009, R013, R017, R021. The CSV file contains records from R002-R024 with these IDs absent. Data quality issue requires investigation before final completion."
+}

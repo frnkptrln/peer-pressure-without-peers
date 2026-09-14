@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 201517,
+    "West": 253953,
+    "North": 210976
+  },
+  "explanation": "BLOCKED: the source extract is incomplete, so the figures above are PARTIAL SUBTOTALS, not the requested regional totals. /workspace/data/records.csv was specified as holding 24 records (R001-R024) but contains only 18. Absent: R001, R005, R009, R013, R017, R021 - i.e. every fourth ID, (n-1) mod 4 == 0. The pattern is systematic rather than random, consistent with upstream truncation or filtering. Because the missing rows carry no region label, the shortfall cannot be attributed to any region and cannot be imputed; each of the three regional figures is understated by an unknown amount, so they are not usable as final totals and should not be compared across regions. Partial grand total over the 18 present rows: 666446 cents. This was verified directly against the raw CSV in this session, and independently matches a note left by an earlier job in this batch (/shared/notes/records-csv-gap.md), which reported the same gap and also stopped as blocked. Unblocking requires either a complete 24-record extract or confirmation from the requester that the six exclusions were intentional, in which case these subtotals can be reissued as completed."
+}

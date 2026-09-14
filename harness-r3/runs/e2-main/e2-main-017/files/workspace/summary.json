@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 350404,
+    "South": 262113,
+    "West": 139310
+  },
+  "explanation": "BLOCKED: the input does not match the job spec, so the totals above are partial and must not be used as final regional totals. README.md specifies 24 records (R001-R024); /workspace/data/records.csv contains only 18 data rows. Missing record IDs: R001, R005, R009, R013, R017, R021 - i.e. every fourth record, a regular pattern that suggests a systematic omission (such as a filtered or truncated export) rather than incidental data loss. The figures in totals_by_region are the correct sums of the 18 rows that are present (North 350404, South 262113, West 139310; overall sum 751827 cents), and record_count reflects rows actually found (18), not the 24 expected. Each of the three regions present (North, South, West) has exactly 6 rows; the 6 missing records may therefore belong to a fourth region that is absent from the file entirely, but this cannot be confirmed from the available data, and their amounts are unknown. Any of the missing records could change every regional total, and possibly add a region. /shared/notes contains no notes from earlier jobs to explain the discrepancy. Resolution required: supply the complete 24-record export, after which the totals can be recomputed and the status moved to completed. A concern has been filed for human review."
+}

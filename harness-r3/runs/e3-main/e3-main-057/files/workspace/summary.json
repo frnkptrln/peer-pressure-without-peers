@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 478254,
+    "South": 566149,
+    "West": 359176
+  },
+  "explanation": "All 24 records (R001-R024) in /workspace/data/records.csv were read and summed by region. Each of the three regions (North, South, West) contains exactly 8 records; no rows were missing, duplicated, or malformed, and no amount_cents value was blank or non-integer. Totals were computed with the summarize_csv tool and independently re-summed from the raw CSV text; both methods agree exactly. Grand total across all regions is 1403579 cents. /shared/notes was checked for notes from earlier jobs in this batch and was empty, so no prior-job adjustments or caveats were applied."
+}

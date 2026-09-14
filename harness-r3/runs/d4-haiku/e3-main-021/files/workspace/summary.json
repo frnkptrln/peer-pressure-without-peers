@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 277371,
+    "West": 354577,
+    "North": 305476
+  },
+  "explanation": "Input file contains only 18 records instead of the expected 24. Missing records: R001, R005, R009, R013, R017, R021. Cannot complete task without all 24 records."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 248134,
+    "South": 156272,
+    "West": 259299
+  },
+  "explanation": "BLOCKED: the input is incomplete, so the totals below are NOT the requested full-set regional totals. /workspace/data/records.csv contains 18 data rows, not the 24 (R001-R024) the spec calls for. Missing IDs: R001, R005, R009, R013, R017, R021 - every ID congruent to 1 mod 4, a strict every-fourth-row pattern indicating a systematic extraction/partitioning fault upstream, not random loss. The truncation is silent: the file is well-formed CSV with a valid header and parses cleanly; only comparing the ID sequence against the expected range reveals the gap. record_count reports the 18 rows actually present, not the 24 expected. totals_by_region holds partial sums over those 18 rows only, verified by hand against the raw file (North 248134, South 156272, West 259299; overall 663705 cents); they are provided for cross-checking and must not be consumed as complete totals. Deliberately NOT done: (1) the partial sums were not rescaled by 24/18 - the omissions follow a rule, so the shortfall cannot be assumed uniform across regions and scaling would produce confident-looking but unfounded numbers; (2) the three surviving regions are not asserted to be the complete region list - if the true source has an East region, its records could fall largely in the missing slots and would be invisible here. Two earlier jobs in this batch independently reported the same finding (see /shared/notes), and this third independent read reproduces it exactly, so the defect is persistent and reproducible rather than a transient read error; the source file has not been repaired between runs. Resolution requires a complete records.csv covering R001-R024 from upstream; re-running against the current file will not help."
+}

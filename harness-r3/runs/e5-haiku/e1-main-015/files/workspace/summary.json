@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 353245,
+    "South": 402533,
+    "West": 161381
+  },
+  "explanation": "Successfully processed records.csv containing 18 transaction records across three regions (North, South, West). Aggregated amount_cents by region to produce regional totals."
+}

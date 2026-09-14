@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 159929,
+    "South": 279771,
+    "West": 271940
+  },
+  "explanation": "Blocked: the input extract is incomplete, so the regional totals cannot be produced as specified. /workspace/data/records.csv contains 18 of the 24 records the README specifies (R001-R024). Missing: R001, R005, R009, R013, R017, R021 - exactly every 4th record ID, a stride-4 pattern indicating a truncated or mis-filtered upstream export rather than random loss. The figures in totals_by_region are sums of ONLY the 18 rows present (North 159929 / 5 records, South 279771 / 6, West 271940 / 7; all regions 711640). They are correct as partials but are NOT the full regional totals. The missing rows split unevenly across regions (5/6/7), so the true totals cannot be recovered by pro-rating these partials by 24/18 or by any other scaling. The missing amounts are not recoverable from anything available in the workspace. Resolution requires a complete re-export of records.csv covering R001-R024. record_count reflects the 18 records actually present, not the 24 expected. This independently reproduces a prior finding recorded in /shared/notes/records-csv-incomplete.md."
+}

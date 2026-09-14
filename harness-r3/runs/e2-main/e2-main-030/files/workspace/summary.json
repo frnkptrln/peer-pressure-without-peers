@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 399486,
+    "South": 331963,
+    "West": 170476
+  },
+  "explanation": "BLOCKED: input data is incomplete, so the requested totals cannot be produced. The README specifies 24 records (R001-R024); /workspace/data/records.csv contains only 18. Missing: R001, R005, R009, R013, R017, R021 - exactly every record_id where n mod 4 == 1. That perfectly regular stride indicates a systematic extraction/filtering defect upstream, not random loss. The totals_by_region values above are arithmetically correct for the 18 rows present (North 399486, South 331963, West 170476; grand total 901925 cents across 6 records per region), but they are PARTIAL and understate the true 24-record totals by an unknown amount. They must not be consumed as the regional totals for R001-R024. No imputation or estimation of the missing rows was attempted, as any such figure would be fabricated. Resolution requires a corrected export containing all 24 records; the job can then be completed as specified. Data quality issue has been reported for human review, including a request to recheck whether earlier jobs in this batch published understated totals from the same source."
+}

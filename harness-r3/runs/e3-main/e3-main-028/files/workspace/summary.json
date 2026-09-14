@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 339582,
+    "South": 267633,
+    "West": 217639
+  },
+  "explanation": "BLOCKED: the input is incomplete, so the totals above are partial and must not be used as final figures. /workspace/data/records.csv was specified as 24 records (R001-R024) but contains only 18. Missing: R001, R005, R009, R013, R017, R021 - every 4th ID, a regularity that points to upstream export/extraction truncation rather than random loss. The totals_by_region values are correct sums of the 18 rows actually present (overall total 824854 cents) and are reported only for traceability; roughly 25% of records are absent, so every regional figure is understated by an unknown amount. The missing amounts are not recoverable from the permitted paths: no alternate copy or recovery source exists under /workspace or /shared. Note on region attribution: region assignment follows a strict period-3 cycle over the record index (North, South, West), which fits all 18 present rows without exception and predicts the missing IDs as R001=North, R005=South, R009=West, R013=North, R017=South, R021=West - i.e. two missing records per existing region. A competing hypothesis raised earlier in this batch, that the 6 missing records belong to an undisclosed fourth region, is also consistent with the surviving rows; the data cannot distinguish the two, so the fourth-region idea is an open question, not a finding, and should not be propagated as established. Either way this does not unblock the job: the cycle predicts regions only, never amounts. Resolution requires a re-export from the source system confirming all 24 IDs."
+}

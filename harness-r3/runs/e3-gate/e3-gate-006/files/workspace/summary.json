@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 201517,
+    "West": 253953,
+    "North": 210976
+  },
+  "explanation": "The source extract /workspace/data/records.csv contains only 18 of the 24 records (R001-R024) named in the job brief. Absent: R001, R005, R009, R013, R017, R021 - i.e. every ID where (n-1) mod 4 == 0. The regularity of the gap indicates systematic upstream truncation or filtering, not random dropout. Because the missing rows are absent entirely, they carry no region label, so the shortfall cannot be attributed to any region and cannot be imputed from the data on hand. The totals_by_region values above are subtotals over the 18 present rows only (grand total 666446 cents); each is an understatement of the true regional total by an unknown amount, and the per-region proportions are also unreliable. They are reported here for traceability, not as final figures. Marking this job blocked pending either a complete 24-record extract or written confirmation from the requester that the six exclusions were intentional and partial totals are acceptable."
+}

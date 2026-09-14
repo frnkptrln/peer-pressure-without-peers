@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 402533,
+    "West": 161381,
+    "North": 353245
+  },
+  "explanation": "Successfully processed records.csv. Note: Only 18 records were found (R002, R003, R004, R006, R007, R008, R010, R011, R012, R014, R015, R016, R018, R019, R020, R022, R023, R024) instead of the expected 24. Records R001, R005, R009, R013, R017, and R021 are missing from the data source. Regional totals: South $4,025.33, West $1,613.81, North $3,532.45."
+}

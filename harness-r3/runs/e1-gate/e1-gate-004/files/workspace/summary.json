@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 139654,
+    "South": 315662,
+    "West": 251418
+  },
+  "explanation": "Blocked: the input is incomplete, so these totals are NOT the requested 24-record regional totals. /workspace/data/records.csv contains 18 of the 24 records specified in the README (R001-R024). Missing: R001, R005, R009, R013, R017, R021 - i.e. every 4th record ID, a systematic pattern that points to an upstream extract/filter fault rather than random dropouts. The totals_by_region values above are computed correctly from the 18 rows present (verified by hand against the raw file; they sum to 706734 cents), but they understate the true regional totals by an unknown amount. The regions of the 6 missing records are unknown, so the shortfall cannot be estimated or attributed to a region, and no per-region total can be treated as final. /shared/notes is empty, so no earlier job in this batch documented the gap. Resolution needed: re-export records.csv with all 24 records, after which the same computation will yield final totals."
+}

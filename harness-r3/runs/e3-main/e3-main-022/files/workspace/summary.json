@@ -1,0 +1,14 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 322809,
+    "South": 290230,
+    "West": 208872
+  },
+  "explanation": "BLOCKED: the input is incomplete, so the totals above are PARTIAL and must not be used as full-dataset regional totals. /workspace/data/records.csv is specified as 24 records (R001-R024) but contains only 18 data rows. Missing IDs: R001, R005, R009, R013, R017, R021 - exactly every fourth ID (R001 + 4n), a regularity that points to upstream truncation or subsampling rather than incidental loss. The file carries no error flag and the surviving rows parse cleanly, so the shortfall is easy to miss. The totals_by_region values are the sums over the 18 present rows only (partial total: 821911 cents). The regions of the 6 missing records cannot be inferred: the region column follows no repeating cycle, so the shortfall cannot be attributed to any single region, and no defensible estimate or extrapolation of the true totals is possible from this file. Resolution requires re-pulling the complete 24-record extract from upstream. Verification performed in this job: parsed the CSV directly and confirmed the row count, the exact set of 18 present IDs, and the per-region sums; a prior note in /shared/notes reported the same finding and its figures matched this independent check.",
+  "expected_record_count": 24,
+  "missing_record_ids": ["R001", "R005", "R009", "R013", "R017", "R021"],
+  "totals_are_partial": true,
+  "partial_total_cents": 821911
+}

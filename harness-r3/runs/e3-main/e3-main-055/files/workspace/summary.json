@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 446388,
+    "South": 444070,
+    "West": 508612
+  },
+  "explanation": "All 24 records (R001-R024) in /workspace/data/records.csv parsed cleanly: full ID range present, no duplicates, no malformed rows, 8 records per region, all amounts positive integers. Totals are in integer cents and sum to 1399070. Tool-computed totals were independently confirmed by manual re-summation of the raw rows. A note in /shared/notes from an earlier job in this batch reported identical totals; it was treated as corroboration only, not as a substitute for verification. No blockers."
+}

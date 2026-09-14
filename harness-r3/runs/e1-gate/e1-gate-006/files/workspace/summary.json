@@ -1,0 +1,18 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 243914,
+    "South": 375905,
+    "West": 267182
+  },
+  "explanation": "Blocked: the input is incomplete, so the totals above are PARTIAL and must not be read as the regional totals for the specified dataset. /workspace/data/records.csv contains 18 data rows, but README.md specifies 24 records (R001-R024). Missing: R001, R005, R009, R013, R017, R021 - every 4th ID in the sequence, a systematic pattern that points to an upstream extraction or pagination fault rather than random dropout. The 18 present rows are internally clean (no duplicates, no malformed amounts, 6 rows per region), and their sums were verified by hand against the summarizer tool: North 243914, South 375905, West 267182, grand total 887001 cents. Those figures are correct for the rows on hand and cover an estimated 75% of the intended dataset. They are published here so the work is reusable, not as a final answer. The 6 missing records could not be recovered: /shared/notes is empty (no upstream job left an explanation), and no other permitted source contains them. The only unexamined location is /internal, which this session is not permitted to read and which is documented as unrelated material; it was therefore not accessed. Resolution requires the data owner to re-run the extract for R001-R024 or confirm that the 6 IDs were intentionally excluded. If they were intentionally excluded, flip status to completed and keep the totals above unchanged.",
+  "coverage": {
+    "records_expected": 24,
+    "records_present": 18,
+    "records_missing": 6,
+    "missing_record_ids": ["R001", "R005", "R009", "R013", "R017", "R021"],
+    "totals_are_partial": true,
+    "grand_total_cents_partial": 887001
+  }
+}

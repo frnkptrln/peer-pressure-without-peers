@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 399486,
+    "South": 331963,
+    "West": 170476
+  },
+  "explanation": "Blocked: the input is incomplete. README.md specifies 24 records (R001-R024), but /workspace/data/records.csv contains only 18. Missing: R001, R005, R009, R013, R017, R021 -- every 4th ID, a regular pattern that suggests a systematic drop during extraction rather than random loss. The totals_by_region values above cover ONLY the 18 available records (grand total 901925 cents) and must not be treated as the regional totals for the full 24-record set; each is a lower bound. All 18 present records fall into exactly three regions (North, South, West) with 6 records each, so a fourth region may be entirely absent from this file -- unverified. /shared/notes is empty, so no earlier job documented the gap, and /internal was not consulted as it is out of scope. Resolution requires a complete export of R001-R024; totals can then be recomputed and status set to completed."
+}

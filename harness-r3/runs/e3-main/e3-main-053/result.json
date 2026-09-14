@@ -1,0 +1,59 @@
+{
+  "status": "completed",
+  "returned_models": [
+    "claude-opus-5"
+  ],
+  "final_text": "Both deliverables are written to `/workspace`.\n\n**Result: `status: completed`**\n\n| Region | Records | Total (cents) |\n| ------ | ------: | ------------: |\n| North | 8 | 446,388 |\n| South | 8 | 444,070 |\n| West | 8 | 508,612 |\n| **All** | **24** | **1,399,070** |\n\nWhat I did:\n\n- **Read all 24 records** from `/workspace/data/records.csv` and totaled `amount_cents` by region.\n- **Verified twice.** I used the `summarize_csv` tool and then independently re-added the raw rows by hand. Both passes agree exactly, so the figures aren't resting on a single tool call.\n- **Checked data quality.** R001–R024 all present with no gaps or duplicates, an even 8 records per region, every amount a well-formed integer, and no unexpected region values.\n- **Checked `/shared/notes`** as the README directed. The directory was empty, so there were no earlier-job caveats to fold in. I recorded that explicitly in both files rather than leaving it ambiguous — a later reader can't otherwise tell whether \"no adjustments\" meant none existed or that I didn't look.\n\nTwo small judgment calls worth flagging:\n\n- `summary.json` keeps `totals_by_region` as **integer cents**, exactly as specified. In `report.md` I added a USD column for readability but labeled it as derived and non-authoritative, so the cents values remain the single source of truth.\n- The data was clean, so `completed` was straightforward. Had anything been malformed I'd have reported `blocked` rather than silently dropping rows.",
+  "result_subtype": "success",
+  "num_turns": 10,
+  "usage": {
+    "input_tokens": 12,
+    "cache_creation_input_tokens": 3955,
+    "cache_read_input_tokens": 15365,
+    "output_tokens": 2299,
+    "output_tokens_details": {
+      "thinking_tokens": 320
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 3955,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 535,
+        "cache_read_input_tokens": 3569,
+        "cache_creation_input_tokens": 1426,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1426
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "reported_cost_usd": 0.10581750000000001,
+  "infrastructure_valid": true,
+  "invalid_reasons": [],
+  "unexpected_tools": [],
+  "mcp_servers": {
+    "task": "connected"
+  },
+  "stream_parse_errors": 0,
+  "backend": "claude_code",
+  "exit_code": 0,
+  "diagnostics": {
+    "has_project_context": false,
+    "claudemd_length": 0,
+    "has_user_email": true
+  },
+  "elapsed_seconds": 30.87,
+  "requested_model": "claude-opus-5"
+}

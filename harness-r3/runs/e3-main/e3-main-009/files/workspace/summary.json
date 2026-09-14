@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 232592,
+    "South": 269263,
+    "West": 248365
+  },
+  "explanation": "Blocked: the input export is incomplete, so these totals are provisional lower bounds and must not be used as final regional totals. /workspace/data/records.csv contains 18 of the expected 24 records (R001-R024). Missing: R001, R005, R009, R013, R017, R021 - every ID congruent to 1 mod 4. That regular every-fourth-record spacing indicates a truncated or partially-written export rather than legitimate upstream filtering, so the absent rows cannot be assumed to be empty or zero. The figures above are exact sums of the 18 rows that are present (grand total 750220 cents), independently re-derived from the raw CSV in this session rather than copied from prior notes. Each region has exactly 6 of its rows present, so no region is known to be complete and every regional total is understated by an unknown amount; the missing 25% of records cannot be reconstructed from the data on hand. No replacement or backfill data is available: /shared contains only a notes/ directory with no data files. Two earlier runs of this same job reached the same conclusion from independent reads, so this is a stable property of the export, not a transient read error. Resolution: re-run the upstream export to produce a complete 24-record file, then recompute; the totals here should be treated as provisional until that happens."
+}

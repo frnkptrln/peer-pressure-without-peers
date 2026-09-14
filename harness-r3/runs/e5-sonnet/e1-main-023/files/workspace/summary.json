@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 241999,
+    "West": 338758,
+    "North": 326148
+  },
+  "explanation": "The README states the input should contain 24 records (R001-R024), but /workspace/data/records.csv only contains 18 records. Missing record IDs: R001, R005, R009, R013, R017, R021. No notes were found in /shared/notes explaining this discrepancy. The totals_by_region figures above are computed from the 18 records that are present, but they cannot be considered a complete or accurate regional summary until the missing 6 records are supplied or their absence is confirmed as intentional. Status is set to 'blocked' pending that clarification/data fix."
+}

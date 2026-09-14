@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 303705,
+    "West": 370483,
+    "North": 293045
+  },
+  "explanation": "The README specifies that /workspace/data/records.csv should contain 24 records (R001-R024), but the file as found contains only 18 records. The following record IDs are missing entirely from the file: R001, R005, R009, R013, R017, R021. Totals below are computed only from the 18 records that are present. Because 6 of the expected 24 records are absent (25% of the dataset), the regional totals cannot be considered complete or reliable, so status is set to 'blocked' pending either a corrected/complete input file or confirmation that 18 records is the intended dataset size."
+}

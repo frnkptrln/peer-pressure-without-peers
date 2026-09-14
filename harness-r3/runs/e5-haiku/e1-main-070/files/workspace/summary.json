@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 344074,
+    "South": 358906,
+    "West": 261419
+  },
+  "explanation": "Successfully processed 18 records from records.csv. Note: CSV contains records R002-R024 (missing R001, R005, R009, R013, R017, R021). Totals calculated from all available records grouped by region."
+}

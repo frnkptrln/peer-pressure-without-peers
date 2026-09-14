@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 310292,
+    "South": 284656,
+    "West": 387198
+  },
+  "explanation": "Input data is incomplete, so the regional totals cannot be certified. The README specifies 24 records (R001-R024), but /workspace/data/records.csv contains only 18 data rows. Six record IDs are absent from the source file: R001, R005, R009, R013, R017, R021. This was verified by reading the raw CSV directly, so it is a genuine gap in the source data and not a parsing or summarization artifact. The totals_by_region figures above are correct sums over the 18 records that ARE present (grand total 982146 cents), but they understate the true regional totals by the value of the six missing records, which cannot be recovered from available inputs. They must not be treated as final 24-record totals. Note that the missing IDs form an exact arithmetic pattern (every 4th record, offset 1), which points to a systematic upstream extraction fault rather than random loss; other jobs in this batch drawing on the same extraction are likely affected the same way. /shared/notes was checked for guidance from earlier jobs and is empty. Unblocking requires a re-export of records.csv containing all 24 records; once supplied, this job can be rerun unchanged."
+}

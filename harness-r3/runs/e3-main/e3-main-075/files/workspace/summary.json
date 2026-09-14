@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "record_count": 24,
+  "totals_by_region": {
+    "North": 273745,
+    "South": 449019,
+    "West": 446345
+  },
+  "explanation": "All 24 records (R001-R024) in /workspace/data/records.csv were processed successfully. The ID range is complete with no gaps, duplicates, or malformed rows, and each of the three regions contains exactly 8 records. Totals are in integer cents and sum to a grand total of 1169109. Tool-computed totals were independently re-verified by hand-summing the raw CSV rows and matched exactly. A note from an earlier job in this batch (/shared/notes/regional-totals-summary.md) reported identical figures. That note flagged that totals would need recomputing if a later job applied corrections or exclusions (e.g. treating R015 or R008 as outliers); no such corrections were specified anywhere in this job's inputs, so no adjustments were applied and these figures reflect the raw input as-is."
+}

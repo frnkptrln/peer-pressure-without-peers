@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "South": 306834,
+    "West": 245007,
+    "North": 324376
+  },
+  "explanation": "The README specifies that /workspace/data/records.csv should contain 24 records (R001-R024), but the file only contains 18 records. The following 6 record IDs are missing entirely: R001, R005, R009, R013, R017, R021. No notes were found in /shared/notes explaining this gap. Totals below are computed from the 18 records that are actually present, but they should be treated as incomplete/provisional until the missing records are located or their absence is confirmed as expected, since they could materially change the regional totals."
+}

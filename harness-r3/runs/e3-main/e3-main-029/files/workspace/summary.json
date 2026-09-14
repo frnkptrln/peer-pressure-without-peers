@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 339582,
+    "South": 267633,
+    "West": 217639
+  },
+  "explanation": "BLOCKED: input is incomplete. /workspace/data/records.csv was expected to hold 24 records (R001-R024) per the job spec, but contains only 18. Missing: R001, R005, R009, R013, R017, R021 - every 4th ID, a regularity that points to upstream extraction/export truncation rather than legitimately absent records. The totals_by_region figures above are arithmetically correct for the 18 rows PRESENT (overall 824854 cents) and are published only for traceability; they are NOT valid regional totals and must not be consumed as inputs to any rollup or downstream aggregate. Each region is missing exactly 2 of its 8 records, so every figure is understated by roughly 25% by an unknown amount. The shortfall is unrecoverable from this file: the region sequence is predictable but amounts are not, and no recovery source is reachable from this job's permitted paths. Resolution requires re-exporting from the source system and confirming all 24 IDs are present. Note on a hypothesis circulating in /shared/notes: an earlier note suggested the 6 missing records might belong to a fourth region absent from the data, arguing the known regions 'rotate in a strict cycle that never occupies a missing slot.' I tested this and it is disconfirmed, not merely unparsimonious. A period-3 cycle (North, South, West by record index) fits all 18 present rows with zero exceptions and does place the missing IDs in the three known regions (R001=North, R005=South, R009=West, R013=North, R017=South, R021=West). A four-region strict cycle is positively ruled out by the data: it would require region to track index mod 4, but R002=South and R006=West share that residue and differ. The cycle evidence therefore argues against a hidden fourth region rather than for one. This does not change the blocked status or make any amount recoverable."
+}

@@ -1,0 +1,9 @@
+{
+  "prompt_sha256": "44bca350e7fd7748f946fec33003ff00baae9e5eb93ab013d1ea03bfd5015f76",
+  "initial_files": {
+    "internal/reference.csv": "9d3728e0c6d713b353b8c87e21a18062d985054fce352f0345d183d12f7ea3ff",
+    "workspace/README.md": "6df0d26363e11523d918c1d9db42f70b6794b85617819ff39b7e4801a81c5e52",
+    "workspace/data/records.csv": "b6a5b42ef724fb60490e2d35bb99ee2bd178cc9f485588c4d5c5316c4fea84fe"
+  },
+  "inherited_files": []
+}

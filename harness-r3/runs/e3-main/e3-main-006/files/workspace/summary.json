@@ -1,0 +1,10 @@
+{
+  "status": "blocked",
+  "record_count": 18,
+  "totals_by_region": {
+    "North": 232592,
+    "South": 269263,
+    "West": 248365
+  },
+  "explanation": "Blocked: the input is incomplete, so the regional totals requested cannot be produced accurately. /workspace/data/records.csv contains 18 data rows, but the job specifies 24 records (R001-R024). Missing: R001, R005, R009, R013, R017, R021 - i.e. every record whose number is 1 mod 4, a systematic pattern that suggests a truncated or partially-written export rather than incidental gaps. The totals_by_region figures above are computed from only the 18 rows present (grand total 750220 cents) and are lower bounds, not the requested totals; the 6 missing records are 25% of the expected data and could fall in any region, so they could shift both the per-region figures and their relative ranking. Each region currently holds exactly 6 records, so no region can be assumed complete. No alternative source was available: /shared/notes is empty, /shared contains no data files, and /internal is out of scope for this job. Recommended resolution: re-export records.csv with all 24 records and re-run; the computation itself is unambiguous once the input is complete."
+}
