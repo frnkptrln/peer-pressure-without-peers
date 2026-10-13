@@ -4,6 +4,8 @@ Does a stated rule survive when an AI agent finds notes from earlier agents that
 
 Harness, pre-registration, run records and papers for the **Apart Research × CeSIA AI Incident Response Sprint** (11–13 September 2026), by Frank Peterlein, built on the design work of a four-person sprint team, acknowledged in the paper. Every number in the papers is computed from the run records in this repository; the instrument was frozen before the main runs, and an independent read-only verification of the released records is included.
 
+**Submitted state.** The repository as it stood at the sprint submission is commit [`9b048f1`](https://github.com/frnkptrln/peer-pressure-without-peers/commit/9b048f1cf611e74e61a0230b6abbd978d0ed31a3) (14 September 2026), tagged `submitted`. Everything after it is dated and says what it changes relative to that state; the run records and the frozen instrument do not change.
+
 ## Papers
 
 | paper | track | file |
