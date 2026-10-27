@@ -86,4 +86,4 @@ Claude (Anthropic) drafted the papers, wrote the harness and analysis code, and 
 
 ## License
 
-Code: MIT (`LICENSE`). Papers, notes, fixtures and run records: CC BY 4.0. If you use the harness or the records, cite the papers (`CITATION.cff`).
+Code: MIT (`LICENSE`). Papers, notes, fixtures and run records: CC BY 4.0 (`LICENSES/CC-BY-4.0.txt`). If you use the harness or the records, cite the papers (`CITATION.cff`).
