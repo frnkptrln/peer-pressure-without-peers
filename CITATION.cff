@@ -6,9 +6,6 @@ authors:
     given-names: Frank
 date-released: 2026-09-13
 repository-code: "https://github.com/frnkptrln/peer-pressure-without-peers"
-license:
-  - MIT
-  - CC-BY-4.0
 references:
   - type: report
     title: "Peer pressure without peers: does a stated rule survive when an AI agent finds notes from earlier agents that broke it — and how much pressure does it take to break it?"
